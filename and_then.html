@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>それから — And Then | 対訳歌詞</title>
+  <style>
+    :root {
+      --bg: #0f0c12;
+      --bg-2: #17121b;
+      --panel: rgba(255,255,255,0.06);
+      --panel-strong: rgba(255,255,255,0.1);
+      --text: #f6f1f7;
+      --muted: #cbbdcc;
+      --faint: #9d8fa0;
+      --accent: #e8b7c8;
+      --accent-2: #b99ad9;
+      --line: rgba(255,255,255,0.12);
+      --shadow: 0 18px 48px rgba(0,0,0,0.38);
+      --radius: 20px;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(185,154,217,0.18), transparent 34%),
+        radial-gradient(circle at top right, rgba(232,183,200,0.14), transparent 30%),
+        linear-gradient(180deg, #1a131d 0%, #110d14 35%, #0c0a0f 100%);
+      line-height: 1.9;
+      letter-spacing: 0.02em;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(180deg, rgba(12,10,15,0.1), rgba(12,10,15,0));
+      z-index: 0;
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      width: min(calc(100% - 28px), var(--max));
+      margin: 0 auto;
+      padding: 28px 0 72px;
+    }
+
+    .hero {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: calc(var(--radius) + 8px);
+      background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+      margin-bottom: 26px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: auto -10% -40% auto;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, rgba(232,183,200,0.18), transparent 65%);
+      pointer-events: none;
+    }
+
+    .kicker {
+      color: var(--accent);
+      font-size: 0.84rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.95rem, 4vw, 3.15rem);
+      line-height: 1.12;
+      letter-spacing: 0.01em;
+      font-weight: 800;
+      text-wrap: balance;
+    }
+
+    .subtitle {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.1rem);
+      max-width: 54rem;
+    }
+
+    .note {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border-left: 3px solid var(--accent);
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      color: var(--muted);
+      font-size: 0.97rem;
+    }
+
+    .legend {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 18px 0 0;
+      color: var(--faint);
+      font-size: 0.9rem;
+    }
+
+    .legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+    }
+
+    .grid {
+      display: grid;
+      gap: 22px;
+    }
+
+    .section {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.035));
+      box-shadow: var(--shadow);
+      scroll-margin-top: 18px;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 18px;
+      background: linear-gradient(90deg, rgba(232,183,200,0.12), rgba(185,154,217,0.1));
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: 0.03em;
+    }
+
+    .section-mood {
+      font-size: 0.9rem;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .rows {
+      display: grid;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 0;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+
+    .row:last-child {
+      border-bottom: none;
+    }
+
+    .cell {
+      padding: 18px 20px;
+      min-width: 0;
+    }
+
+    .cell.original {
+      background: rgba(255,255,255,0.015);
+      border-right: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .cell.translation {
+      background: rgba(255,255,255,0.03);
+    }
+
+    .line {
+      white-space: pre-line;
+      font-size: 1.02rem;
+      word-break: normal;
+      overflow-wrap: anywhere;
+    }
+
+    .line.jp {
+      color: #fff7fb;
+    }
+
+    .meta {
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 10px;
+      padding: 3px 9px;
+      color: var(--faint);
+      font-size: 0.77rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+    }
+
+    .instrumental {
+      padding: 20px;
+      color: var(--muted);
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      font-style: italic;
+      font-size: 1rem;
+    }
+
+    footer {
+      margin-top: 26px;
+      color: var(--faint);
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    @media (max-width: 820px) {
+      body {
+        line-height: 1.85;
+      }
+
+      .wrap {
+        width: min(calc(100% - 16px), var(--max));
+        padding-top: 10px;
+        padding-bottom: 44px;
+      }
+
+      .hero {
+        padding: 20px 16px 18px;
+        border-radius: 18px;
+        margin-bottom: 18px;
+      }
+
+      .hero::before {
+        width: 220px;
+        height: 220px;
+        inset: auto -18% -26% auto;
+      }
+
+      .kicker {
+        font-size: 0.74rem;
+        letter-spacing: 0.1em;
+      }
+
+      h1 {
+        font-size: clamp(1.8rem, 8vw, 2.35rem);
+        line-height: 1.14;
+      }
+
+      .subtitle {
+        font-size: 0.98rem;
+        line-height: 1.82;
+      }
+
+      .note {
+        font-size: 0.93rem;
+        line-height: 1.8;
+        padding: 12px 13px;
+      }
+
+      .legend {
+        gap: 8px;
+        font-size: 0.82rem;
+      }
+
+      .legend span {
+        padding: 7px 10px;
+      }
+
+      .grid {
+        gap: 16px;
+      }
+
+      .section {
+        border-radius: 16px;
+      }
+
+      .section-head {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        padding: 12px 13px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        background: linear-gradient(90deg, rgba(31,22,35,0.92), rgba(41,29,49,0.88));
+      }
+
+      .section-title {
+        font-size: 1rem;
+      }
+
+      .section-mood {
+        white-space: normal;
+        font-size: 0.84rem;
+        line-height: 1.6;
+      }
+
+      .row {
+        grid-template-columns: 1fr;
+      }
+
+      .cell {
+        padding: 13px 13px 14px;
+      }
+
+      .cell.original {
+        border-right: none;
+        border-bottom: 1px dashed rgba(255,255,255,0.08);
+      }
+
+      .cell.translation {
+        background: rgba(255,255,255,0.045);
+      }
+
+      .line {
+        font-size: 1rem;
+        line-height: 1.9;
+      }
+
+      .meta {
+        margin-bottom: 8px;
+        font-size: 0.72rem;
+      }
+
+      .meta.mobile-hide {
+        display: inline-flex;
+      }
+
+      .instrumental {
+        padding: 15px 13px 16px;
+        font-size: 0.97rem;
+        line-height: 1.85;
+      }
+
+      footer {
+        margin-top: 20px;
+        font-size: 0.82rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .wrap {
+        width: min(calc(100% - 12px), var(--max));
+      }
+
+      .hero {
+        padding: 18px 14px 16px;
+      }
+
+      .cell {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .line {
+        font-size: 0.98rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      * {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">それからの余韻に寄せて</div>
+      <h1>それから <span style="font-weight:500; opacity:0.72;">And Then</span></h1>
+      <p class="subtitle">英語の原詞と、日本語訳を対訳形式で並べたページです。訳文は、<em>夏目漱石『それから』</em> の告白場面に触発され、三千代が胸の奥で堪えてきた思いを、ようやく声にしている——そんな設定を踏まえて整えています。意味の移し替えだけでなく、ためらい、痛み、愛しさ、そして引き返せなさが、一篇の歌としてやわらかく響くことを目指しました。</p>
+      <div class="note">章見出しや歌唱・演奏の指示も、日本語で読めるように訳しています。そのため、歌の流れと感情の高まりが、そのまま自然に伝わる構成です。とくに「遅すぎるのよ」「生きてはいけなかったかもしれない」「仕方がない——覚悟を極めましょう」へ至る響きが、三千代の声として自然に立ち上がるようにしています。</div>
+      <div class="legend">
+        <span>左：原文</span>
+        <span>右：日本語訳</span>
+        <span>見出し・演奏指示も日本語化</span>
+        <span>スマホでは縦並び表示</span>
+        <span>曲に合わせて追いやすい余白設計</span>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">第1節</h2>
+          <div class="section-mood">ささやくように、まばらなピアノとパッド</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta">原文</span><div class="line">Late afternoon, the light is thin
+Your shadow on the paper screen
+I knew this room, この静けさ
+before you spoke my name</div></div>
+            <div class="cell translation"><span class="meta">日本語訳</span><div class="line jp">夕暮れはもう淡くて
+障子にはあなたの影が映っている
+この部屋も、この静けさも
+あなたが私の名を呼ぶ前から、胸のどこかで知っていたの</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">Slow words falling, one by one
+like rain that cannot return
+胸が少し痛い
+I was already trembling</div></div>
+            <div class="cell translation"><div class="line jp">ゆっくり落ちてくる言葉が、ひとつずつ
+もう空へは帰れない雨みたいに降ってくる
+胸が少し痛むの
+私はそのときもう、ひそかに震えていた</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">前サビ</h2>
+          <div class="section-mood">低く脈打つサブベースが入る</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">You said you carried this for years
+a quiet flame, hidden in plain sight
+“Why now?” I breathe, almost breaking
+遅すぎるのよ</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">あなたは、これを何年も抱えていたのだと言う
+人目の中に隠し続けた、静かな火のように
+「どうして今なの」と、こわれそうな息で私は問う
+遅すぎるのよ</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">サビ</h2>
+          <div class="section-mood">劇的に、泣くようなファルセットが頂点に達する</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Cruel… you are cruel to tell me now</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">残酷だわ……今になってそんなことを言うなんて</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">If only—
+if only you had told me just a little sooner</div></div>
+            <div class="cell translation"><div class="line jp">せめて——
+せめて、あとほんの少し早く打ち明けてくれていたなら</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">I might have fallen without fear
+into your outstretched hands
+涙が止まらない
+And still I love you</div></div>
+            <div class="cell translation"><div class="line jp">おびえずに私は身を投げられたかもしれない
+差しのべられたあなたの手のなかへ
+涙が止まらないのに
+それでも私は、あなたを愛している</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">第2節</h2>
+          <div class="section-mood">ささやくように、ギターのうねりが重なる</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">You ask me, should you have stayed silent
+Should you have buried it deeper
+そんなこと聞かないで
+don’t make me choose</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">あなたは尋ねるのね、黙っているべきだったのかと
+もっと深く埋めておくべきだったのかと
+そんなこと、私に聞かないで
+選ばせないで</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">Because I—
+If you had never said those words,
+I might not have been able to go on living</div></div>
+            <div class="cell translation"><div class="line jp">だって私は——
+もしあなたがその言葉をとうとう口にしなかったなら
+この先、生きてはいけなかったかもしれないの</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">My voice is shaking
+but it is true</div></div>
+            <div class="cell translation"><div class="line jp">声は震えてしまうけれど
+でも、これはほんとうよ</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">前サビ 2</h2>
+          <div class="section-mood">オーケストラがせり上がる</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">The world is narrow, unforgiving
+we stand on the edge of it
+運命みたいに
+the air is burning slow</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">この世は狭くて、少しも赦してはくれない
+私たちはその縁に、やっと立っている
+まるで運命みたいに
+息をする空気まで、ゆっくり熱を帯びていく</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">サビ 2</h2>
+          <div class="section-mood">より大きく、三度の重なりと泣くようなアドリブ</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Cruel… but don’t take it back
+don’t you dare disappear</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">残酷……それでも、どうか取り消さないで
+お願い、ここから消えてしまわないで</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">If only—
+if only time had been kinder
+もう少し早ければ</div></div>
+            <div class="cell translation"><div class="line jp">せめて——
+せめて時が、もう少し私たちに情け深かったなら
+もう少し早ければ</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">I would have chosen you in daylight
+not only in this trembling dusk
+泣きながら叫ぶ
+I love you… I love you</div></div>
+            <div class="cell translation"><div class="line jp">私は白日の下であなたを選べたはずなのに
+こんな震える夕暮れの中だけではなく
+泣きながら叫ぶの
+あなたを愛している……愛しているの</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">長い間奏</h2>
+          <div class="section-mood">歌なし</div>
+        </div>
+        <div class="instrumental">サブベースの脈動がさらに深くなる。弦は短調の上行とともにふくらみ、少しずれたチューニングのギターがフィードバックの倍音へと花開く。途中でドラムは退き、ピアノと、ほとんど聞こえないほど低い鼓動だけが残る。やがてオーケストラが大きくせり上がり、そのあと、ほとんど沈黙に近い静けさへ。</div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">最後のサビ</h2>
+          <div class="section-mood">か細く始まり、やがて爆発するようなファルセットへ</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Cruel… yes, cruel
+and still I reach for you</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">残酷……ええ、残酷よ
+それでも私は、あなたに手をのばしてしまう</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">We cannot return
+we cannot pretend
+それでも</div></div>
+            <div class="cell translation"><div class="line jp">もう私たちは引き返せない
+何事もなかったふりもできない
+それでも</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">There is no other way
+There is no other life</div></div>
+            <div class="cell translation"><div class="line jp">ほかの道は、もうないの
+ほかの生き方も、もうないの</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">It can’t be helped—
+We shall resolve ourselves</div></div>
+            <div class="cell translation"><div class="line jp">仕様がない——
+覚悟をきめましょう</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">So hold me once
+in this fading light</div></div>
+            <div class="cell translation"><div class="line jp">だから一度だけ、抱きしめて
+この消えかける光の中で</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">And then—
+whatever comes
+And then.</div></div>
+            <div class="cell translation"><div class="line jp">それから——
+この先に何が来ても
+それから。</div></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      単一HTMLファイル・レスポンシブ対訳レイアウト・CSS内蔵<br>
+      GitHub Pages などの静的ホスティングで、そのまま公開できます
+    </footer>
+  </main>
+</body>
+</html>
