@@ -1,0 +1,154 @@
+{
+  "slug": "and-then",
+  "title_ja": "それから",
+  "title_en": "And Then",
+  "page_title": "それから — And Then | 対訳歌詞",
+  "kicker": "それからの余韻に寄せて",
+  "song_url": "https://suno.com/song/43cb9dce-e357-4baf-8df2-bef0324f44e3",
+  "subtitle_html": "英語の原詞と、日本語訳を対訳形式で並べたページです。訳文は、<em>夏目漱石『それから』</em> の告白場面に触発され、三千代が胸の奥で堪えてきた思いを、ようやく声にしている——そんな設定を踏まえて整えています。意味の移し替えだけでなく、ためらい、痛み、愛しさ、そして引き返せなさが、一篇の歌としてやわらかく響くことを目指しました。",
+  "note_html": "章見出しや歌唱・演奏の指示も、日本語で読めるように訳しています。そのため、歌の流れと感情の高まりが、そのまま自然に伝わる構成です。とくに「遅すぎるのよ」「生きてはいけなかったかもしれない」「仕様がない——覚悟をきめましょう」へ至る響きが、三千代の声として自然に立ち上がるようにしています。",
+  "song_link_note": "タイトルからも楽曲ページへ移動できます",
+  "toc": [
+    { "id": "verse1", "label": "第1節" },
+    { "id": "prechorus1", "label": "前サビ" },
+    { "id": "chorus1", "label": "サビ" },
+    { "id": "verse2", "label": "第2節" },
+    { "id": "prechorus2", "label": "前サビ 2" },
+    { "id": "chorus2", "label": "サビ 2" },
+    { "id": "bridge", "label": "長い間奏" },
+    { "id": "final-chorus", "label": "最後のサビ" }
+  ],
+  "sections": [
+    {
+      "id": "verse1",
+      "title": "第1節",
+      "mood": "ささやくように、まばらなピアノとパッド",
+      "rows": [
+        {
+          "original": "Late afternoon, the light is thin\nYour shadow on the paper screen\nI knew this room, この静けさ\nbefore you spoke my name",
+          "translation": "夕暮れはもう淡くて\n障子にはあなたの影が映っている\nこの部屋も、この静けさも\nあなたが私の名を呼ぶ前から、胸のどこかで知っていたの"
+        },
+        {
+          "original": "Slow words falling, one by one\nlike rain that cannot return\n胸が少し痛い\nI was already trembling",
+          "translation": "ゆっくり落ちてくる言葉が、ひとつずつ\nもう空へは帰れない雨みたいに降ってくる\n胸が少し痛むの\n私はそのときもう、ひそかに震えていた"
+        }
+      ]
+    },
+    {
+      "id": "prechorus1",
+      "title": "前サビ",
+      "mood": "低く脈打つサブベースが入る",
+      "rows": [
+        {
+          "original": "You said you carried this for years\na quiet flame, hidden in plain sight\n“Why now?” I breathe, almost breaking\n遅すぎるのよ",
+          "translation": "あなたは、これを何年も抱えていたのだと言う\n人目の中に隠し続けた、静かな火のように\n「どうして今なの」と、こわれそうな息で私は問う\n遅すぎるのよ"
+        }
+      ]
+    },
+    {
+      "id": "chorus1",
+      "title": "サビ",
+      "mood": "劇的に、泣くようなファルセットが頂点に達する",
+      "rows": [
+        {
+          "original": "Cruel… you are cruel to tell me now",
+          "translation": "残酷だわ……今になってそんなことを言うなんて"
+        },
+        {
+          "original": "If only—\nif only you had told me just a little sooner",
+          "translation": "せめて——\nせめて、あとほんの少し早く打ち明けてくれていたなら"
+        },
+        {
+          "original": "I might have fallen without fear\ninto your outstretched hands\n涙が止まらない\nAnd still I love you",
+          "translation": "おびえずに私は身を投げられたかもしれない\n差しのべられたあなたの手のなかへ\n涙が止まらないのに\nそれでも私は、あなたを愛している"
+        }
+      ]
+    },
+    {
+      "id": "verse2",
+      "title": "第2節",
+      "mood": "ささやくように、ギターのうねりが重なる",
+      "rows": [
+        {
+          "original": "You ask me, should you have stayed silent\nShould you have buried it deeper\nそんなこと聞かないで\ndon’t make me choose",
+          "translation": "あなたは尋ねるのね、黙っているべきだったのかと\nもっと深く埋めておくべきだったのかと\nそんなこと、私に聞かないで\n選ばせないで"
+        },
+        {
+          "original": "Because I—\nIf you had never said those words,\nI might not have been able to go on living",
+          "translation": "だって私は——\nもしあなたがその言葉をとうとう口にしなかったなら\nこの先、生きてはいけなかったかもしれないの"
+        },
+        {
+          "original": "My voice is shaking\nbut it is true",
+          "translation": "声は震えてしまうけれど\nでも、これはほんとうよ"
+        }
+      ]
+    },
+    {
+      "id": "prechorus2",
+      "title": "前サビ 2",
+      "mood": "オーケストラがせり上がる",
+      "rows": [
+        {
+          "original": "The world is narrow, unforgiving\nwe stand on the edge of it\n運命みたいに\nthe air is burning slow",
+          "translation": "この世は狭くて、少しも赦してはくれない\n私たちはその縁に、やっと立っている\nまるで運命みたいに\n息をする空気まで、ゆっくり熱を帯びていく"
+        }
+      ]
+    },
+    {
+      "id": "chorus2",
+      "title": "サビ 2",
+      "mood": "より大きく、三度の重なりと泣くようなアドリブ",
+      "rows": [
+        {
+          "original": "Cruel… but don’t take it back\ndon’t you dare disappear",
+          "translation": "残酷……それでも、どうか取り消さないで\nお願い、ここから消えてしまわないで"
+        },
+        {
+          "original": "If only—\nif only time had been kinder\nもう少し早ければ",
+          "translation": "せめて——\nせめて時が、もう少し私たちに情け深かったなら\nもう少し早ければ"
+        },
+        {
+          "original": "I would have chosen you in daylight\nnot only in this trembling dusk\n泣きながら叫ぶ\nI love you… I love you",
+          "translation": "私は白日の下であなたを選べたはずなのに\nこんな震える夕暮れの中だけではなく\n泣きながら叫ぶの\nあなたを愛している……愛しているの"
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "title": "長い間奏",
+      "mood": "歌なし",
+      "instrumental": "サブベースの脈動がさらに深くなる。弦は短調の上行とともにふくらみ、少しずれたチューニングのギターがフィードバックの倍音へと花開く。途中でドラムは退き、ピアノと、ほとんど聞こえないほど低い鼓動だけが残る。やがてオーケストラが大きくせり上がり、そのあと、ほとんど沈黙に近い静けさへ。"
+    },
+    {
+      "id": "final-chorus",
+      "title": "最後のサビ",
+      "mood": "か細く始まり、やがて爆発するようなファルセットへ",
+      "rows": [
+        {
+          "original": "Cruel… yes, cruel\nand still I reach for you",
+          "translation": "残酷……ええ、残酷よ\nそれでも私は、あなたに手をのばしてしまう"
+        },
+        {
+          "original": "We cannot return\nwe cannot pretend\nそれでも",
+          "translation": "もう私たちは引き返せない\n何事もなかったふりもできない\nそれでも"
+        },
+        {
+          "original": "There is no other way\nThere is no other life",
+          "translation": "ほかの道は、もうないの\nほかの生き方も、もうないの"
+        },
+        {
+          "original": "It can’t be helped—\nWe shall resolve ourselves",
+          "translation": "仕様がない——\n覚悟をきめましょう"
+        },
+        {
+          "original": "So hold me once\nin this fading light",
+          "translation": "だから一度だけ、抱きしめて\nこの消えかける光の中で"
+        },
+        {
+          "original": "And then—\nwhatever comes\nAnd then.",
+          "translation": "それから——\nこの先に何が来ても\nそれから。"
+        }
+      ]
+    }
+  ]
+}
