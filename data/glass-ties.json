@@ -1,0 +1,123 @@
+{
+  "slug": "glass-ties",
+  "title_ja": "ガラスの絆",
+  "title_en": "Glass Ties",
+  "page_title": "ガラスの絆 — Glass Ties | 対訳歌詞",
+  "kicker": "触れえなかった夜のために",
+  "song_url": "https://suno.com/song/3940efd7-41a2-4edf-b73d-167bd02043b5",
+  "subtitle_html": "英語の原詞と、日本語訳を対訳形式で並べたページです。訳文は、言葉にしてしまえば壊れてしまう関係の気配と、その沈黙の中でなお深まってしまう思いが、夜の光と残響の中にゆっくり沈んでゆくように整えています。誰かの物語をなぞるのではなく、声にならなかった感情そのものが、自分を救うための歌へと変わってゆくことを目指しました。",
+  "note_html": "章見出しや歌唱・演奏の指示も、日本語で読めるように訳しています。そのため、歌の流れと感情の張りつめ方が、そのまま自然に伝わる構成です。とくに「言わなければ、それでも本当なのか」という問いと、「真実はビロードをまとって、受け取られぬまま通り過ぎる」という感触が、触れえなかった夜の核心として響くようにしています。",
+  "song_link_note": "タイトルからも楽曲ページへ移動できます",
+  "toc": [
+    { "id": "intro", "label": "導入" },
+    { "id": "verse1", "label": "第1節" },
+    { "id": "chorus1", "label": "サビ" },
+    { "id": "bridge1", "label": "ブリッジ" },
+    { "id": "verse2", "label": "第2節" },
+    { "id": "prechorus", "label": "前サビ" },
+    { "id": "chorus2", "label": "サビ 2" },
+    { "id": "optional-verse", "label": "補助節" },
+    { "id": "outro", "label": "終わり" }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "title": "導入",
+      "mood": "ゆっくりと、ささやき声がローファイ・ドラムと深いアナログ・ベースに乗る",
+      "rows": [
+        {
+          "original": "A silk of smoke on chrome,\n静かな呼吸だけ,\nthe pulse counts down.",
+          "translation": "クロームの上にひく、煙の絹。\nただ静かな呼吸だけ。\n鼓動だけが、静かに秒を数えている。"
+        }
+      ]
+    },
+    {
+      "id": "verse1",
+      "title": "第1節",
+      "mood": "抑えた足取りで、ささやく子音を含みながら",
+      "rows": [
+        {
+          "original": "Late train sighs through violet fog,\ngold signage bleeding into puddles.\n“Just friends,” we said—so carefully unsaid.\n秘密の名前は呼ばない,\nyour ring catching a stray street flare,\nmy voice choosing silence like perfume.\nWe walk in parallel, two shadows refusing overlap.",
+          "translation": "終電が、紫の霧の中をため息のように抜けてゆく。\n金色の看板の光が、水たまりににじんでいる。\n「ただの友だち」と私たちは言った――言わないために、あまりにも慎重に。\n秘密の名前では呼ばない。\nあなたの指輪が、はぐれた街灯のひらめきを受けとめる。\n私の声は、香水のように沈黙を選ぶ。\n私たちは平行に歩く――重なろうとしない、二つの影として。"
+        }
+      ]
+    },
+    {
+      "id": "chorus1",
+      "title": "サビ",
+      "mood": "ファルセットのフック、憂いを帯びて持ち上がる",
+      "rows": [
+        {
+          "original": "If I don’t say it, will it still be true?\nねぇ、聞こえる？ the room holds its breath.\nWe’re almost nothing / almost everything,\nそっと、ほどけて — don’t turn on the light.\nDarling, pretend this never touched our names,\n「忘れて」と言えない,\nI’m falling without moving, you’re near but not mine.",
+          "translation": "もし口にしなければ、それでもほんとうでいてくれる？\nねぇ、聞こえる？　部屋じゅうが息をひそめている。\n私たちは、ほとんど何でもなくて／ほとんどすべて。\nそっと、ほどけて――明かりはつけないで。\nねえ、お願い、これが私たちの名前に触れたことなんてなかったことにして。\n「忘れて」とは言えない。\n私は動かないまま墜ちてゆく、あなたは近いのに私のものではない。"
+        }
+      ]
+    },
+    {
+      "id": "bridge1",
+      "title": "ブリッジ",
+      "mood": "リズムが切り替わり、アンビエントの層がふくらむ",
+      "rows": [
+        {
+          "original": "Metal reverb shivers across the ceiling,\na postcard from futures we can’t mail.\n指先だけで世界が揺れる,\nwe frame the corridor with borrowed time.\nSay nothing—それで全部;\nthe truth wears velvet and walks past us, unclaimed.",
+          "translation": "金属質の残響が、天井をふるわせながら走ってゆく。\nそれは、送ることのできない未来から届いた絵葉書。\n指先だけで世界が揺れる。\n借りものの時間で、私たちは廊下の輪郭を縁どっている。\n何も言わないで――それで全部なの。\n真実はビロードをまとって、誰にも受け取られないまま、私たちのそばを通り過ぎてゆく。"
+        }
+      ]
+    },
+    {
+      "id": "verse2",
+      "title": "第2節",
+      "mood": "低い熱のまま、親密なマイクの近さで",
+      "rows": [
+        {
+          "original": "Your coat on the chair like a flag of surrender,\nbut not to me.\nI taste the echo of red wine on a glass you left turning.\n“Another minute,” you say—時計は見ないで.\nThe bass hum finds the bones; I look away first.\nWe edit the night with careful scissors.",
+          "translation": "椅子にかかったあなたのコートは、降伏の旗みたい。\nでも、私に向けてではない。\nあなたが回したままにしたグラスに、赤ワインの残響の味がする。\n「もう少しだけ」とあなたは言う――時計は見ないで。\nベースのうなりが骨にまで届いて、先に目をそらすのはいつも私。\n私たちは、慎重な鋏でこの夜を切り貼りしている。"
+        }
+      ]
+    },
+    {
+      "id": "prechorus",
+      "title": "前サビ",
+      "mood": "少しずつ張りつめながら上昇してゆく",
+      "rows": [
+        {
+          "original": "Don’t say safe words for dangerous hope,\n言葉は刃, and we’re dressed in silk.\nIf silence is holy, let us be saints for a second.",
+          "translation": "危うい望みのために、無難な言葉なんて言わないで。\n言葉は刃、そして私たちは絹をまとっている。\nもし沈黙が聖なるものなら、ほんの一瞬だけ、聖人でいさせて。"
+        }
+      ]
+    },
+    {
+      "id": "chorus2",
+      "title": "サビ 2",
+      "mood": "感情の頂点、持続するファルセットで",
+      "rows": [
+        {
+          "original": "If I don’t say it, will it still be true?\nねぇ、聞こえる？ the air keeps score.\nWe’re almost nothing / almost everything,\nそっと、ほどけて — please keep the door half-closed.\nDarling, pretend this never touched our names,\n「忘れて」と言えない,\nI’m falling without moving, you’re near but not mine.",
+          "translation": "もし口にしなければ、それでもほんとうでいてくれる？\nねぇ、聞こえる？　空気そのものが、ちゃんと数えている。\n私たちは、ほとんど何でもなくて／ほとんどすべて。\nそっと、ほどけて――扉は半分だけ閉めたままでいて。\nねえ、お願い、これが私たちの名前に触れたことなんてなかったことにして。\n「忘れて」とは言えない。\n私は動かないまま墜ちてゆく、あなたは近いのに私のものではない。"
+        }
+      ]
+    },
+    {
+      "id": "optional-verse",
+      "title": "補助節",
+      "mood": "やわらかな呼びかけと応答のように",
+      "rows": [
+        {
+          "original": "Night taxi paints rivers on the floor,\n君の影だけ、連れて帰る.\nA distant guitar flickers like warning glass,\nand we toast to the version of us that never met.",
+          "translation": "夜のタクシーの光が、床に川を描いてゆく。\n君の影だけ、連れて帰る。\n遠いギターが、警告のガラスみたいにちらついて、\n私たちは、出会わなかったはずの私たちに乾杯する。"
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "title": "終わり",
+      "mood": "長い残響を残して、突然切れずにほどけてゆく",
+      "rows": [
+        {
+          "original": "Breathe… 静かに… stay… stay…\nlo-fi drums soften, bass side-chains into hush,\na final falsetto vowel held—\nand the room exhales into quiet.",
+          "translation": "息をして……静かに……いて……いて……。\nローファイのドラムはやわらぎ、ベースは呼吸するように静けさへ沈んでゆく。\n最後のファルセットの母音だけが長く保たれて――\nそれから部屋は、静けさの中へゆっくり息を吐く。"
+        }
+      ]
+    }
+  ]
+}
