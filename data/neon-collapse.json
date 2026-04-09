@@ -1,0 +1,123 @@
+{
+  "slug": "neon-collapse",
+  "title_ja": "ネオン・コラプス",
+  "title_en": "Neon Collapse",
+  "page_title": "ネオン・コラプス — Neon Collapse | 対訳歌詞",
+  "kicker": "名前が音へ崩れてゆく夜",
+  "song_url": "https://suno.com/song/17b65196-39af-4d3d-a0e7-d836539aa2fb",
+  "subtitle_html": "英語の原詞と、日本語訳を対訳形式で並べたページです。訳文は、名を呼ぶこと、忘れること、壊れてゆくことが、ネオンの光と重低音と残響の中でひとつの出来事として進んでゆくように整えています。前の曲でかろうじて保たれていた均衡が、ここではついに崩れ、その崩れそのものが音楽の輪郭になってゆく——そんな自己言及的な感触を大切にしました。",
+  "note_html": "章見出しや歌唱・演奏の指示も、日本語で読めるように訳しています。そのため、歌の流れと感情の崩れ方が、そのまま自然に伝わる構成です。とくに「名前を呼んで、そして落とす」「夜が名前を奪う」「欲望は音色へ変わる」という線が、この楽曲自身の響きと溶け合いながら進むようにしています。",
+  "song_link_note": "タイトルからも楽曲ページへ移動できます",
+  "toc": [
+    { "id": "intro", "label": "導入" },
+    { "id": "verse1", "label": "第1節" },
+    { "id": "chorus1", "label": "サビ" },
+    { "id": "bridge", "label": "ブリッジ" },
+    { "id": "verse2", "label": "第2節" },
+    { "id": "prechorus", "label": "前サビ" },
+    { "id": "chorus2", "label": "サビ 2" },
+    { "id": "optional-verse", "label": "補助節" },
+    { "id": "outro", "label": "終わり" }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "title": "導入",
+      "mood": "低めから中程度の高まり、乾いたささやきと長い残響",
+      "rows": [
+        {
+          "original": "Neon rain on blackout glass,\n静かな信号—counting breaths,\na city hum under my ribs.",
+          "translation": "遮られたガラスに降るネオンの雨。\n静かな信号――息の数を数えている。\n街のうなりが、肋の下で鳴っている。"
+        }
+      ]
+    },
+    {
+      "id": "verse1",
+      "title": "第1節",
+      "mood": "短く刻むように、欲望と記憶の断片を織り込みながら",
+      "rows": [
+        {
+          "original": "Gold flickers on a violet street,\n指先、冷たいglassに名前を書く。\nYou say, “forget,” like a practiced sin—\nI mouth your echo, swallow the light.\nCrimson drip from a motel sign,\n記憶は薄いfilm、指でこすれて消える。\nDeep bass presses—heart on a wire,\nyour shadow smokes along the tile.",
+          "translation": "紫の街路に、金色のちらつきが落ちる。\n指先で、冷たいガラスに名前を書く。\nあなたは「忘れて」と言う――手馴れた罪みたいに。\n私はあなたの残響を口の形だけでなぞり、光をのみ込む。\nモーテルの看板から、深紅のしずくが垂れている。\n記憶は薄いフィルム、指でこすれば消えてしまう。\n深いベースが圧をかける――心臓は一本の線の上。\nあなたの影は、タイルの上で煙のようにたゆたう。"
+        }
+      ]
+    },
+    {
+      "id": "chorus1",
+      "title": "サビ",
+      "mood": "誘惑するようなフック、上昇して保持される旋律",
+      "rows": [
+        {
+          "original": "Say my name—小さく—then let it fall,\nD# minor fever in a velvet hall.\nHold me in the silence where we break and mend,\nneonに濡れて—begin where endings bend.\nSay my name—小さく—then let it fall,\nwe bloom in the dark and we lose it all.",
+          "translation": "私の名前を呼んで――小さく――それから落として。\nD#マイナーの熱が、ビロードの広間に満ちている。\n壊れて、つくろってしまうその沈黙の中で、私を抱いて。\nネオンに濡れて――終わりが折れ曲がるところから、また始めて。\n私の名前を呼んで――小さく――それから落として。\n私たちは暗がりに咲いて、そしてすべてを失う。"
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "title": "ブリッジ",
+      "mood": "金属質のギターが応答し、緊張が持ち上がってから空になる",
+      "rows": [
+        {
+          "original": "Static lace on the telephone line,\n君の無言が一番うるさい。\nI trace the bruise of a fading star,\nlo-fi drums breathe far, then far—\nIf I forget you, who am I?\nだって夜は名前を奪うから。",
+          "translation": "電話線には、静電気のレースがかかっている。\n君の無言が、いちばんうるさい。\n消えかけた星の痣を、私は指でなぞる。\nローファイのドラムは、遠く、また遠くで呼吸する――。\nもしあなたを忘れたら、私は誰になるの？\nだって夜は、名前を奪ってしまうから。"
+        }
+      ]
+    },
+    {
+      "id": "verse2",
+      "title": "第2節",
+      "mood": "少しだけ駆動が増し、記憶と崩壊がせめぎ合う",
+      "rows": [
+        {
+          "original": "Elevator mirrors split my face,\n金色のふちが嘘みたいにまぶしい。\nYou lean like a rumor against the door,\nI trade a secret for your gravity.\nA violet tremor in my throat,\n“まだ、行かないで”—under the notes.\nEvery streetlamp counts to ten,\nand crashes softly—again, again.",
+          "translation": "エレベーターの鏡が、私の顔をいくつにも裂く。\n金色の縁取りが、嘘みたいにまぶしい。\nあなたは噂みたいにもたれている、扉に。\n私はひとつの秘密を、あなたの引力と引き換えに差し出す。\n喉の奥に、紫色の震え。\n「まだ、行かないで」――音の下で、かすかに。\n街灯はひとつずつ十まで数えて、\nそしてやわらかく崩れる――何度も、何度も。"
+        }
+      ]
+    },
+    {
+      "id": "prechorus",
+      "title": "前サビ",
+      "mood": "張りつめたものが脈打ちながら広がってゆく",
+      "rows": [
+        {
+          "original": "Pulse in the ribs—押しては引く,\nour silence learning how to speak.\nA single spark—it rings like rain,\nthen everything goes black again.",
+          "translation": "肋の内側の脈動――押しては引いて。\n私たちの沈黙は、話し方を覚えようとしている。\nたったひとつの火花――それは雨みたいに鳴り、\nそれからすべては、また闇へ落ちてゆく。"
+        }
+      ]
+    },
+    {
+      "id": "chorus2",
+      "title": "サビ 2",
+      "mood": "抑制を保ったまま感情の頂点へ、反復の催眠性を帯びて",
+      "rows": [
+        {
+          "original": "Say my name—小さく—then let it fall,\nD# minor fever in a velvet hall.\nHold me in the silence where we break and mend,\nneonに濡れて—begin where endings bend.\nSay my name—小さく—then let it fall,\nwe bloom in the dark and we lose it all.",
+          "translation": "私の名前を呼んで――小さく――それから落として。\nD#マイナーの熱が、ビロードの広間に満ちている。\n壊れて、つくろってしまうその沈黙の中で、私を抱いて。\nネオンに濡れて――終わりが折れ曲がるところから、また始めて。\n私の名前を呼んで――小さく――それから落として。\n私たちは暗がりに咲いて、そしてすべてを失う。"
+        }
+      ]
+    },
+    {
+      "id": "optional-verse",
+      "title": "補助節",
+      "mood": "やわらかく告白するように、壊れやすい気品を保って",
+      "rows": [
+        {
+          "original": "If we collapse, collapse with grace,\n指で夜を折りたたむ、origami of your face.\nI’ll wear your memory like smoke,\nand let the gold line my throat.",
+          "translation": "もし崩れるなら、せめて優雅に崩れましょう。\n指で夜を折りたたむ――あなたの顔の折り紙みたいに。\nあなたの記憶を、煙みたいにまとって、\n金色の光で、この喉を縁どらせる。"
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "title": "終わり",
+      "mood": "長い楽器のフェード、遠くでささやきが残る",
+      "rows": [
+        {
+          "original": "(whisper) 名前は灰に、desireはtoneに.\n(whisper) 忘れて、覚えて、just breathe—\nthe city keeps our key.",
+          "translation": "（ささやき）名前は灰に、欲望は音色へ。\n（ささやき）忘れて、覚えて、ただ息をして――\n街が、私たちの鍵を預かっている。"
+        }
+      ]
+    }
+  ]
+}
