@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>借りた光、胸に秘めたまま — Borrowed Light, Kept Quiet | 対訳歌詞</title>
+  <style>
+    :root {
+      --bg: #0f0c12;
+      --bg-2: #17121b;
+      --panel: rgba(255,255,255,0.06);
+      --panel-strong: rgba(255,255,255,0.1);
+      --text: #f6f1f7;
+      --muted: #cbbdcc;
+      --faint: #9d8fa0;
+      --accent: #e8b7c8;
+      --accent-2: #b99ad9;
+      --line: rgba(255,255,255,0.12);
+      --shadow: 0 18px 48px rgba(0,0,0,0.38);
+      --radius: 20px;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(185,154,217,0.18), transparent 34%),
+        radial-gradient(circle at top right, rgba(232,183,200,0.14), transparent 30%),
+        linear-gradient(180deg, #1a131d 0%, #110d14 35%, #0c0a0f 100%);
+      line-height: 1.9;
+      letter-spacing: 0.02em;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(180deg, rgba(12,10,15,0.1), rgba(12,10,15,0));
+      z-index: 0;
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      width: min(calc(100% - 28px), var(--max));
+      margin: 0 auto;
+      padding: 28px 0 72px;
+    }
+
+    .hero {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: calc(var(--radius) + 8px);
+      background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+      margin-bottom: 26px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: auto -10% -40% auto;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, rgba(232,183,200,0.18), transparent 65%);
+      pointer-events: none;
+    }
+
+    .kicker {
+      color: var(--accent);
+      font-size: 0.84rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.95rem, 4vw, 3.15rem);
+      line-height: 1.12;
+      letter-spacing: 0.01em;
+      font-weight: 800;
+      text-wrap: balance;
+    }
+
+    .subtitle {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.1rem);
+      max-width: 54rem;
+    }
+
+    .note {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border-left: 3px solid var(--accent);
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      color: var(--muted);
+      font-size: 0.97rem;
+    }
+
+    .toc {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0 14px;
+    }
+
+    .toc a {
+      display: inline-flex;
+      align-items: center;
+      padding: 9px 13px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.05);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.9rem;
+      line-height: 1.2;
+      transition: background-color 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .toc a:hover,
+    .toc a:focus-visible {
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(232,183,200,0.42);
+      transform: translateY(-1px);
+      outline: none;
+    }
+
+    .song-link-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .song-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 9px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.92rem;
+      line-height: 1.2;
+      transition: background-color 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .song-link:hover,
+    .song-link:focus-visible {
+      background: rgba(255,255,255,0.11);
+      border-color: rgba(232,183,200,0.42);
+      transform: translateY(-1px);
+      outline: none;
+    }
+
+    .song-link-note {
+      color: var(--faint);
+      font-size: 0.88rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 22px;
+    }
+
+    .section {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.035));
+      box-shadow: var(--shadow);
+      scroll-margin-top: 18px;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 18px;
+      background: linear-gradient(90deg, rgba(232,183,200,0.12), rgba(185,154,217,0.1));
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: 0.03em;
+    }
+
+    .section-mood {
+      font-size: 0.9rem;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .rows {
+      display: grid;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 0;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+
+    .row:last-child {
+      border-bottom: none;
+    }
+
+    .cell {
+      padding: 18px 20px;
+      min-width: 0;
+    }
+
+    .cell.original {
+      background: rgba(255,255,255,0.015);
+      border-right: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .cell.translation {
+      background: rgba(255,255,255,0.03);
+    }
+
+    .line {
+      white-space: pre-line;
+      font-size: 1.02rem;
+      word-break: normal;
+      overflow-wrap: anywhere;
+    }
+
+    .line.jp {
+      color: #fff7fb;
+    }
+
+    .meta {
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 10px;
+      padding: 3px 9px;
+      color: var(--faint);
+      font-size: 0.77rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+    }
+
+    .instrumental {
+      padding: 20px;
+      color: var(--muted);
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      font-style: italic;
+      font-size: 1rem;
+    }
+
+    footer {
+      margin-top: 26px;
+      color: var(--faint);
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    @media (max-width: 820px) {
+      .toc {
+        gap: 8px;
+        margin: 16px 0 12px;
+      }
+
+      .toc a {
+        padding: 8px 11px;
+        font-size: 0.84rem;
+      }
+
+      .song-link-wrap {
+        gap: 8px;
+        margin-top: 16px;
+      }
+
+      .song-link {
+        padding: 8px 12px;
+        font-size: 0.86rem;
+      }
+
+      .song-link-note {
+        font-size: 0.8rem;
+      }
+
+      body {
+        line-height: 1.85;
+      }
+
+      .wrap {
+        width: min(calc(100% - 16px), var(--max));
+        padding-top: 10px;
+        padding-bottom: 44px;
+      }
+
+      .hero {
+        padding: 20px 16px 18px;
+        border-radius: 18px;
+        margin-bottom: 18px;
+      }
+
+      .hero::before {
+        width: 220px;
+        height: 220px;
+        inset: auto -18% -26% auto;
+      }
+
+      .kicker {
+        font-size: 0.74rem;
+        letter-spacing: 0.1em;
+      }
+
+      h1 {
+        font-size: clamp(1.8rem, 8vw, 2.35rem);
+        line-height: 1.14;
+      }
+
+      .subtitle {
+        font-size: 0.98rem;
+        line-height: 1.82;
+      }
+
+      .note {
+        font-size: 0.93rem;
+        line-height: 1.8;
+        padding: 12px 13px;
+      }
+
+      .grid {
+        gap: 16px;
+      }
+
+      .section {
+        border-radius: 16px;
+      }
+
+      .section-head {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        padding: 12px 13px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        background: linear-gradient(90deg, rgba(31,22,35,0.92), rgba(41,29,49,0.88));
+      }
+
+      .section-title {
+        font-size: 1rem;
+      }
+
+      .section-mood {
+        white-space: normal;
+        font-size: 0.84rem;
+        line-height: 1.6;
+      }
+
+      .row {
+        grid-template-columns: 1fr;
+      }
+
+      .cell {
+        padding: 13px 13px 14px;
+      }
+
+      .cell.original {
+        border-right: none;
+        border-bottom: 1px dashed rgba(255,255,255,0.08);
+      }
+
+      .cell.translation {
+        background: rgba(255,255,255,0.045);
+      }
+
+      .line {
+        font-size: 1rem;
+        line-height: 1.9;
+      }
+
+      .meta {
+        margin-bottom: 8px;
+        font-size: 0.72rem;
+      }
+
+      .meta.mobile-hide {
+        display: inline-flex;
+      }
+
+      .instrumental {
+        padding: 15px 13px 16px;
+        font-size: 0.97rem;
+        line-height: 1.85;
+      }
+
+      footer {
+        margin-top: 20px;
+        font-size: 0.82rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .wrap {
+        width: min(calc(100% - 12px), var(--max));
+      }
+
+      .hero {
+        padding: 18px 14px 16px;
+      }
+
+      .cell {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .line {
+        font-size: 0.98rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      * {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">夜のあとにも残る、言えなかった光</div>
+      <h1><a href="https://suno.com/song/4b935998-5fc1-41ab-9614-ebbda9b1addb" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.18);">借りた光、胸に秘めたまま <span style="font-weight:500; opacity:0.72;">Borrowed Light, Kept Quiet</span></a></h1>
+      <p class="subtitle">英語の原詞と、日本語訳を対訳形式で並べたページです。訳文は、すでに終わりを知ってしまった関係の、その後にもなお残りつづける微かな熱と、言葉にしないことでやっと保たれる輪郭が、借りものの光として胸の内にともりつづけるように整えています。ここでは別れは出来事ではなく、呼吸や手つきや視線の置き場所の中に、静かに住みついています。</p>
+      <div class="note">章見出しや歌唱・演奏の指示も、日本語で読めるように訳しています。そのため、歌の流れと、壊れたあとにも続いてしまう感情の細い持続が、そのまま自然に伝わる構成です。とくに「借りた光」「平気と言いながら平気ではないこと」「部屋と鍵をそれぞれ持ったまま離れること」が、この曲の静かな核心として響くようにしています。</div>
+      <nav class="toc" aria-label="目次">
+        <a href="#intro">導入</a>
+        <a href="#verse1">第1節</a>
+        <a href="#prechorus1">前サビ</a>
+        <a href="#chorus1">サビ</a>
+        <a href="#postchorus">後サビ</a>
+        <a href="#verse2">第2節</a>
+        <a href="#prechorus2">前サビ 2</a>
+        <a href="#chorus2">サビ 2</a>
+        <a href="#bridge">ブリッジ</a>
+        <a href="#break">間句</a>
+        <a href="#final-chorus">最後のサビ</a>
+      </nav>
+      <div class="song-link-wrap">
+        <a class="song-link" href="https://suno.com/song/4b935998-5fc1-41ab-9614-ebbda9b1addb" target="_blank" rel="noopener noreferrer">曲を聴く</a>
+        <span class="song-link-note">タイトルからも楽曲ページへ移動できます</span>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="section" id="intro">
+        <div class="section-head">
+          <h2 class="section-title">導入</h2>
+          <div class="section-mood">胸の奥で街灯が鳴り、階段にビロードの残響が触れるように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta">原文</span><div class="line">Streetlights in my chest—slow thunder
+You say nothing, I say less
+夜はささやく
+A velvet echo on the stairs</div></div>
+            <div class="cell translation"><span class="meta">日本語訳</span><div class="line jp">胸の中に街灯が灯っている――遅い雷のように。
+あなたは何も言わず、私はそれより少なく言う。
+夜はささやく。
+階段には、ビロードみたいな残響がかかっている。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="verse1">
+        <div class="section-head">
+          <h2 class="section-title">第1節</h2>
+          <div class="section-mood">静かな手つきで、鏡と卓の上に気持ちを置くように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Glass on the table, a ring-shaped quiet
+I fold my hands like closing curtains
+「まだ大丈夫」 I tell the mirror
+but the mirror won’t agree</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">卓の上のグラス、そのまわりに指輪の形をした静けさ。
+私は手を折りたたむ――幕を閉じるみたいに。
+「まだ大丈夫」と鏡に言ってみる。
+でも鏡は、うなずいてくれない。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="prechorus1">
+        <div class="section-head">
+          <h2 class="section-title">前サビ</h2>
+          <div class="section-mood">冬の匂いと小さくなる鼓動を、歯のあいだで止めるように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Your coat smells like winter trains
+my pulse takes smaller steps
+「言わないで」stays between the teeth
+and every word forgets its name</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">あなたのコートは、冬の列車みたいな匂いがする。
+鼓動は、だんだん小さな歩幅になってゆく。
+「言わないで」が歯のあいだにとどまったままで、
+言葉はみんな、自分の名前を忘れてしまう。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="chorus1">
+        <div class="section-head">
+          <h2 class="section-title">サビ</h2>
+          <div class="section-mood">ファルセットが劇的に持ち上がり、それでも壊れきらないように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Don’t look back—私は平気 I’m not
+Holding breath in silk and thunder
+涙、こぼれて, let it run
+If love is only borrowed light,
+返さなくていいと言って
+Say it once, before the dawn
+Don’t look back—私を忘れて
+I’m here and not—still singing on</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">振り返らないで――私は平気、でも平気じゃない。
+絹と雷のあいだで、息を止めたまま。
+涙、こぼれて――そのまま流れさせて。
+もし愛がただ借りものの光なら、
+返さなくていいと、そう言って。
+夜明けの前に、一度だけ。
+振り返らないで――私を忘れて。
+私はここにいて、いなくて――それでもまだ歌っている。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="postchorus">
+        <div class="section-head">
+          <h2 class="section-title">後サビ</h2>
+          <div class="section-mood">ささやくように、低音が遠い扉みたいに落ちる</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">寂しさは金色
+when the bass falls like a distant door
+I keep the key / you keep the room</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">寂しさは金色。
+ベースが遠い扉みたいに落ちるとき、
+私は鍵を持ち、あなたは部屋を持っている。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="verse2">
+        <div class="section-head">
+          <h2 class="section-title">第2節</h2>
+          <div class="section-mood">ホテルの壁紙と時計の隙間に、終わりかけた決意が沈むように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Hotel wallpaper—dark hydrangeas
+We count the spaces between clocks
+「やめよう」 almost reaches daylight,
+then slips beneath the sheets of noise</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">ホテルの壁紙――暗い紫陽花。
+私たちは時計と時計のあいだの隙間を数えている。
+「やめよう」は、もう少しで夜明けに届きかけて、
+それから雑音のシーツの下へ滑り落ちる。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="prechorus2">
+        <div class="section-head">
+          <h2 class="section-title">前サビ 2</h2>
+          <div class="section-mood">傷のような名前を、見えない海岸線みたいになぞる</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Your name is a careful bruise
+I trace it like a quiet coastline
+言葉は少なめで—I stay small,
+so nothing breaks in public</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">あなたの名前は、注意深く残された痣。
+私はそれを、静かな海岸線みたいになぞる。
+言葉は少なめで――私は小さくしている。
+人前で何も壊れないように。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="chorus2">
+        <div class="section-head">
+          <h2 class="section-title">サビ 2</h2>
+          <div class="section-mood">同じ旋律がもう一度戻り、抑えきれない感情を抱えたまま続く</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Don’t look back—私は平気, I’m not
+Holding breath in silk and thunder
+涙、こぼれて, let it run
+If love is only borrowed light,
+返さなくていいと言って
+Say it once, before the dawn
+Don’t look back—私を忘れて
+I’m here and not—still singing on</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">振り返らないで――私は平気、でも平気じゃない。
+絹と雷のあいだで、息を止めたまま。
+涙、こぼれて――そのまま流れさせて。
+もし愛がただ借りものの光なら、
+返さなくていいと、そう言って。
+夜明けの前に、一度だけ。
+振り返らないで――私を忘れて。
+私はここにいて、いなくて――それでもまだ歌っている。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="bridge">
+        <div class="section-head">
+          <h2 class="section-title">ブリッジ</h2>
+          <div class="section-mood">ささやきとファルセットのあいだで、終点とその先が揺れる</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Between the windows, night collects
+「ここまで」 … or maybe farther
+We step apart like closing wings
+and leave a gold dust ruin</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">窓と窓のあいだに、夜がたまってゆく。
+「ここまで」……あるいは、その先まで。
+私たちは閉じる翼みたいに離れていって、
+金色の塵の廃墟だけを残す。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="break">
+        <div class="section-head">
+          <h2 class="section-title">間句</h2>
+          <div class="section-mood">やさしい嘘と沈黙の手入れだけが残る</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Ah—やさしい嘘 —a careful trespass
+I keep the silence polished</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">ああ――やさしい嘘――注意深い侵入。
+私は沈黙だけを、磨いたままにしておく。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="final-chorus">
+        <div class="section-head">
+          <h2 class="section-title">最後のサビ</h2>
+          <div class="section-mood">泣くようなファルセットで、最後の願いだけを明け方へ差し出す</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Don’t look back—私は平気, I’m not
+Hold me once where no one looks
+涙、止まらない, let it flood
+If love is only borrowed light,
+返さなくていいと言って
+Say it once, before the dawn
+Don’t look back—私を忘れて
+Let the reverb carry on—</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">振り返らないで――私は平気、でも平気じゃない。
+誰にも見られない場所で、一度だけ抱きしめて。
+涙、止まらない――あふれるままにして。
+もし愛がただ借りものの光なら、
+返さなくていいと、そう言って。
+夜明けの前に、一度だけ。
+振り返らないで――私を忘れて。
+あとは残響だけに、運ばせて。</div></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      単一HTMLファイル・レスポンシブ対訳レイアウト・CSS内蔵<br>
+      GitHub Pages などの静的ホスティングで、そのまま公開できます
+    </footer>
+  </main>
+</body>
+</html>

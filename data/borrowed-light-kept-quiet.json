@@ -1,0 +1,147 @@
+{
+  "slug": "borrowed-light-kept-quiet",
+  "title_ja": "借りた光、胸に秘めたまま",
+  "title_en": "Borrowed Light, Kept Quiet",
+  "page_title": "借りた光、胸に秘めたまま — Borrowed Light, Kept Quiet | 対訳歌詞",
+  "kicker": "夜のあとにも残る、言えなかった光",
+  "song_url": "https://suno.com/song/4b935998-5fc1-41ab-9614-ebbda9b1addb",
+  "subtitle_html": "英語の原詞と、日本語訳を対訳形式で並べたページです。訳文は、すでに終わりを知ってしまった関係の、その後にもなお残りつづける微かな熱と、言葉にしないことでやっと保たれる輪郭が、借りものの光として胸の内にともりつづけるように整えています。ここでは別れは出来事ではなく、呼吸や手つきや視線の置き場所の中に、静かに住みついています。",
+  "note_html": "章見出しや歌唱・演奏の指示も、日本語で読めるように訳しています。そのため、歌の流れと、壊れたあとにも続いてしまう感情の細い持続が、そのまま自然に伝わる構成です。とくに「借りた光」「平気と言いながら平気ではないこと」「部屋と鍵をそれぞれ持ったまま離れること」が、この曲の静かな核心として響くようにしています。",
+  "song_link_note": "タイトルからも楽曲ページへ移動できます",
+  "toc": [
+    { "id": "intro", "label": "導入" },
+    { "id": "verse1", "label": "第1節" },
+    { "id": "prechorus1", "label": "前サビ" },
+    { "id": "chorus1", "label": "サビ" },
+    { "id": "postchorus", "label": "後サビ" },
+    { "id": "verse2", "label": "第2節" },
+    { "id": "prechorus2", "label": "前サビ 2" },
+    { "id": "chorus2", "label": "サビ 2" },
+    { "id": "bridge", "label": "ブリッジ" },
+    { "id": "break", "label": "間句" },
+    { "id": "final-chorus", "label": "最後のサビ" }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "title": "導入",
+      "mood": "胸の奥で街灯が鳴り、階段にビロードの残響が触れるように",
+      "rows": [
+        {
+          "original": "Streetlights in my chest—slow thunder\nYou say nothing, I say less\n夜はささやく\nA velvet echo on the stairs",
+          "translation": "胸の中に街灯が灯っている――遅い雷のように。\nあなたは何も言わず、私はそれより少なく言う。\n夜はささやく。\n階段には、ビロードみたいな残響がかかっている。"
+        }
+      ]
+    },
+    {
+      "id": "verse1",
+      "title": "第1節",
+      "mood": "静かな手つきで、鏡と卓の上に気持ちを置くように",
+      "rows": [
+        {
+          "original": "Glass on the table, a ring-shaped quiet\nI fold my hands like closing curtains\n「まだ大丈夫」 I tell the mirror\nbut the mirror won’t agree",
+          "translation": "卓の上のグラス、そのまわりに指輪の形をした静けさ。\n私は手を折りたたむ――幕を閉じるみたいに。\n「まだ大丈夫」と鏡に言ってみる。\nでも鏡は、うなずいてくれない。"
+        }
+      ]
+    },
+    {
+      "id": "prechorus1",
+      "title": "前サビ",
+      "mood": "冬の匂いと小さくなる鼓動を、歯のあいだで止めるように",
+      "rows": [
+        {
+          "original": "Your coat smells like winter trains\nmy pulse takes smaller steps\n「言わないで」stays between the teeth\nand every word forgets its name",
+          "translation": "あなたのコートは、冬の列車みたいな匂いがする。\n鼓動は、だんだん小さな歩幅になってゆく。\n「言わないで」が歯のあいだにとどまったままで、\n言葉はみんな、自分の名前を忘れてしまう。"
+        }
+      ]
+    },
+    {
+      "id": "chorus1",
+      "title": "サビ",
+      "mood": "ファルセットが劇的に持ち上がり、それでも壊れきらないように",
+      "rows": [
+        {
+          "original": "Don’t look back—私は平気 I’m not\nHolding breath in silk and thunder\n涙、こぼれて, let it run\nIf love is only borrowed light,\n返さなくていいと言って\nSay it once, before the dawn\nDon’t look back—私を忘れて\nI’m here and not—still singing on",
+          "translation": "振り返らないで――私は平気、でも平気じゃない。\n絹と雷のあいだで、息を止めたまま。\n涙、こぼれて――そのまま流れさせて。\nもし愛がただ借りものの光なら、\n返さなくていいと、そう言って。\n夜明けの前に、一度だけ。\n振り返らないで――私を忘れて。\n私はここにいて、いなくて――それでもまだ歌っている。"
+        }
+      ]
+    },
+    {
+      "id": "postchorus",
+      "title": "後サビ",
+      "mood": "ささやくように、低音が遠い扉みたいに落ちる",
+      "rows": [
+        {
+          "original": "寂しさは金色\nwhen the bass falls like a distant door\nI keep the key / you keep the room",
+          "translation": "寂しさは金色。\nベースが遠い扉みたいに落ちるとき、\n私は鍵を持ち、あなたは部屋を持っている。"
+        }
+      ]
+    },
+    {
+      "id": "verse2",
+      "title": "第2節",
+      "mood": "ホテルの壁紙と時計の隙間に、終わりかけた決意が沈むように",
+      "rows": [
+        {
+          "original": "Hotel wallpaper—dark hydrangeas\nWe count the spaces between clocks\n「やめよう」 almost reaches daylight,\nthen slips beneath the sheets of noise",
+          "translation": "ホテルの壁紙――暗い紫陽花。\n私たちは時計と時計のあいだの隙間を数えている。\n「やめよう」は、もう少しで夜明けに届きかけて、\nそれから雑音のシーツの下へ滑り落ちる。"
+        }
+      ]
+    },
+    {
+      "id": "prechorus2",
+      "title": "前サビ 2",
+      "mood": "傷のような名前を、見えない海岸線みたいになぞる",
+      "rows": [
+        {
+          "original": "Your name is a careful bruise\nI trace it like a quiet coastline\n言葉は少なめで—I stay small,\nso nothing breaks in public",
+          "translation": "あなたの名前は、注意深く残された痣。\n私はそれを、静かな海岸線みたいになぞる。\n言葉は少なめで――私は小さくしている。\n人前で何も壊れないように。"
+        }
+      ]
+    },
+    {
+      "id": "chorus2",
+      "title": "サビ 2",
+      "mood": "同じ旋律がもう一度戻り、抑えきれない感情を抱えたまま続く",
+      "rows": [
+        {
+          "original": "Don’t look back—私は平気, I’m not\nHolding breath in silk and thunder\n涙、こぼれて, let it run\nIf love is only borrowed light,\n返さなくていいと言って\nSay it once, before the dawn\nDon’t look back—私を忘れて\nI’m here and not—still singing on",
+          "translation": "振り返らないで――私は平気、でも平気じゃない。\n絹と雷のあいだで、息を止めたまま。\n涙、こぼれて――そのまま流れさせて。\nもし愛がただ借りものの光なら、\n返さなくていいと、そう言って。\n夜明けの前に、一度だけ。\n振り返らないで――私を忘れて。\n私はここにいて、いなくて――それでもまだ歌っている。"
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "title": "ブリッジ",
+      "mood": "ささやきとファルセットのあいだで、終点とその先が揺れる",
+      "rows": [
+        {
+          "original": "Between the windows, night collects\n「ここまで」 … or maybe farther\nWe step apart like closing wings\nand leave a gold dust ruin",
+          "translation": "窓と窓のあいだに、夜がたまってゆく。\n「ここまで」……あるいは、その先まで。\n私たちは閉じる翼みたいに離れていって、\n金色の塵の廃墟だけを残す。"
+        }
+      ]
+    },
+    {
+      "id": "break",
+      "title": "間句",
+      "mood": "やさしい嘘と沈黙の手入れだけが残る",
+      "rows": [
+        {
+          "original": "Ah—やさしい嘘 —a careful trespass\nI keep the silence polished",
+          "translation": "ああ――やさしい嘘――注意深い侵入。\n私は沈黙だけを、磨いたままにしておく。"
+        }
+      ]
+    },
+    {
+      "id": "final-chorus",
+      "title": "最後のサビ",
+      "mood": "泣くようなファルセットで、最後の願いだけを明け方へ差し出す",
+      "rows": [
+        {
+          "original": "Don’t look back—私は平気, I’m not\nHold me once where no one looks\n涙、止まらない, let it flood\nIf love is only borrowed light,\n返さなくていいと言って\nSay it once, before the dawn\nDon’t look back—私を忘れて\nLet the reverb carry on—",
+          "translation": "振り返らないで――私は平気、でも平気じゃない。\n誰にも見られない場所で、一度だけ抱きしめて。\n涙、止まらない――あふれるままにして。\nもし愛がただ借りものの光なら、\n返さなくていいと、そう言って。\n夜明けの前に、一度だけ。\n振り返らないで――私を忘れて。\nあとは残響だけに、運ばせて。"
+        }
+      ]
+    }
+  ]
+}
