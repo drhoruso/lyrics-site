@@ -1,0 +1,123 @@
+{
+  "slug": "silk-of-silence",
+  "title_ja": "沈黙の絹",
+  "title_en": "Silk of Silence",
+  "page_title": "沈黙の絹 — Silk of Silence | 対訳歌詞",
+  "kicker": "触れればほどける、静かな熱",
+  "song_url": "https://suno.com/song/3b1d4279-fad3-47a3-8970-618ff59fdd54",
+  "subtitle_html": "英語の原詞と、日本語訳を対訳形式で並べたページです。訳文は、沈黙そのものがゆっくり熱を帯び、触れあいが言葉より先に空間を満たしてゆくような感触を大切に整えています。ここでは愛は告白というより、呼吸、残響、光の薄さの中で、絹のように肌へ触れながら形を取ってゆきます。",
+  "note_html": "章見出しや歌唱・演奏の指示も、日本語で読めるように訳しています。そのため、楽曲の呼吸と熱の立ち上がりが、そのまま自然に伝わる構成です。とくに「沈黙がゆっくり燃える」「名を呼んで、ほどく」「余韻だけが触れたまま残る」という線が、この曲の甘く静かな核心として響くようにしています。",
+  "song_link_note": "タイトルからも楽曲ページへ移動できます",
+  "toc": [
+    { "id": "intro", "label": "導入" },
+    { "id": "verse1", "label": "第1節" },
+    { "id": "chorus1", "label": "サビ" },
+    { "id": "bridge", "label": "ブリッジ" },
+    { "id": "verse2", "label": "第2節" },
+    { "id": "prechorus", "label": "前サビ" },
+    { "id": "chorus2", "label": "サビ 2" },
+    { "id": "optional-verse", "label": "補助節" },
+    { "id": "outro", "label": "終わり" }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "title": "導入",
+      "mood": "とても疎らに、息と残響がゆっくり満ちるように",
+      "rows": [
+        {
+          "original": "incense air, cathedral reverb\nhand on the pulse of a distant tide\n静かに満ちる\n灯りは薄く",
+          "translation": "香の気配をふくんだ空気、伽藍のような残響。\n遠い潮の脈に、そっと手を当てる。\n静かに満ちてゆく。\n灯りは薄く。"
+        }
+      ]
+    },
+    {
+      "id": "verse1",
+      "title": "第1節",
+      "mood": "囁くように、間を大きく取りながら",
+      "rows": [
+        {
+          "original": "silver dust on the eyelids\nwet stone, a choir of cicadas\n口づけみたいな風\n呼吸を数える\nyou lean where the shadows listen\nspellbound, bare feet on the floor\n祈りはまだ熱い",
+          "translation": "まぶたの上に、銀の塵。\n濡れた石、蝉たちの合唱。\n口づけみたいな風。\n呼吸を数える。\nあなたは、影が耳を澄ます場所へ寄りかかる。\n魔法にかかったみたいに、素足のまま床に立って。\n祈りはまだ熱い。"
+        }
+      ]
+    },
+    {
+      "id": "chorus1",
+      "title": "サビ",
+      "mood": "ファルセットが上へ弧を描き、そのまま浮遊するように",
+      "rows": [
+        {
+          "original": "take me where the silence burns slow  \n溶けるように抱いて\nlet the low end bloom, then let it go  \n夜の羽根をほどいて\ncall my name, then breathe it small  \n名前をほどく\nI fall, I fall, I fall",
+          "translation": "連れていって、沈黙がゆっくり燃えている場所へ。\n溶けるように抱いて。\n低音が花ひらいて、そしてほどけてゆくままにして。\n夜の羽根をほどいて。\n私の名前を呼んで、それから小さく息にして。\n名前をほどく。\n私は落ちる、落ちる、落ちてゆく。"
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "title": "ブリッジ",
+      "mood": "ハーモニーが広がり、半拍の重さがひとつ落ちてくるように",
+      "rows": [
+        {
+          "original": "haze on the glass, a circle of light\nyour whisper cuts a doorway thin\n水面が揺れる — say when  \nlet the floor disappear, let skin be sky\n深いこだまがひとつだけ\nand every doubt unbuttons in the dark-blue room",
+          "translation": "ガラスには霞、そこにひとつの光の輪。\nあなたの囁きが、細い戸口を切りひらく。\n水面が揺れる――その時を言って。\n床は消えてしまえばいい、肌は空になればいい。\n深いこだまが、ただひとつ。\nそして暗い青の部屋で、ためらいはみんなひとつずつほどけてゆく。"
+        }
+      ]
+    },
+    {
+      "id": "verse2",
+      "title": "第2節",
+      "mood": "少しだけ駆動を増し、細部が甘く浮かび上がるように",
+      "rows": [
+        {
+          "original": "wax drips, metronome of want\nmy name written soft in condensation\n白い指先  tracing sigils\nthe world outside goes colorless\nあなたの声は遠雷 — close, then far\nI answer with the hush between the notes",
+          "translation": "蝋が垂れる、欲望のメトロノームみたいに。\n曇りの上に、私の名前がやわらかく書かれている。\n白い指先が、しるしをなぞる。\n外の世界は、色を失ってゆく。\nあなたの声は遠雷――近づいて、また遠ざかる。\n私は音と音のあいだの静けさで答える。"
+        }
+      ]
+    },
+    {
+      "id": "prechorus",
+      "title": "前サビ",
+      "mood": "張りつめながら上昇し、触れる手前で熱を溜めるように",
+      "rows": [
+        {
+          "original": "hold—don’t hurry the bloom  \n息を合わせて\ncount—one breath, two, then none  \nまだ触れないで\nlet the bass wait under the floorboards",
+          "translation": "待って――咲くのを急がせないで。\n息を合わせて。\n数えて――ひとつ、ふたつ、それから無へ。\nまだ触れないで。\nベースは床板の下で、じっと待たせておいて。"
+        }
+      ]
+    },
+    {
+      "id": "chorus2",
+      "title": "サビ 2",
+      "mood": "二度目は少しだけふくらみ、頂点のあとにふわりと漂うように",
+      "rows": [
+        {
+          "original": "take me where the silence burns slow  \n溶けるように抱いて\nlet the low end bloom, then let it go  \n夜の羽根をほどいて\ncall my name, then breathe it small  \n名前をほどく\nI fall, I fall—still yours",
+          "translation": "連れていって、沈黙がゆっくり燃えている場所へ。\n溶けるように抱いて。\n低音が花ひらいて、そしてほどけてゆくままにして。\n夜の羽根をほどいて。\n私の名前を呼んで、それから小さく息にして。\n名前をほどく。\n私は落ちる、落ちる――それでもまだ、あなたのもの。"
+        }
+      ]
+    },
+    {
+      "id": "optional-verse",
+      "title": "補助節",
+      "mood": "さらにやわらかく、誓いより音色だけが残るように",
+      "rows": [
+        {
+          "original": "northern window, velvet dawn\n杯に落ちる雫 keeps time\nyou press a vow inside my palm\n言葉はいらない — only tone\nwe move like smoke learning to be rain",
+          "translation": "北向きの窓、ビロードみたいな夜明け。\n杯に落ちる雫が、静かに時を刻む。\nあなたは誓いを、私の掌の中へそっと押しこむ。\n言葉はいらない――ただ音色だけで。\n私たちは動く、雨になることを覚える煙みたいに。"
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "title": "終わり",
+      "mood": "長い残響だけが残り、糸を切らずにほどいてゆくように",
+      "rows": [
+        {
+          "original": "don’t cut the thread—just loosen it\n触れた余韻だけ\nleave the door half open\n息のあいだで消える",
+          "translation": "糸を切らないで――ただ、ゆるめて。\n触れた余韻だけ。\n扉は半分だけ開けたままで。\n息と息のあいだで消えてゆく。"
+        }
+      ]
+    }
+  ]
+}
