@@ -1,0 +1,159 @@
+{
+  "slug": "hush-falls-through-us",
+  "title_ja": "静けさが私たちを通り抜ける",
+  "title_en": "Hush Falls Through Us",
+  "page_title": "静けさが私たちを通り抜ける — Hush Falls Through Us | 対訳歌詞",
+  "kicker": "熱を帯びた静寂が、ふたりを透かしてゆく夜",
+  "song_url": "https://suno.com/song/208d134a-0ba7-467a-aa41-14314b170bed",
+  "subtitle_html": "英語の原詞と、日本語訳を対訳形式で並べたページです。訳文は、囁き、残響、呼吸のあいだで、ふたりの距離そのものがゆっくり溶けてゆくような感触を大切に整えています。ここでは静けさは背景ではなく、ふたりを高く運び、通り抜け、触れたものの輪郭を変えてしまう、やわらかな力として働いています。",
+  "note_html": "章見出しや歌唱・演奏の指示も、日本語で読めるように訳しています。そのため、熱を孕んだ沈黙の立ち上がりと、そこへ身を預けてゆく感覚が、そのまま自然に伝わる構成です。とくに「静寂が導く」「囁きだけを残す」「私たちが静けさを落ちてゆき、静けさもまた私たちを通り抜ける」という線が、この曲の甘く深い核心として響くようにしています。",
+  "song_link_note": "タイトルからも楽曲ページへ移動できます",
+  "toc": [
+    { "id": "intro", "label": "導入" },
+    { "id": "verse1", "label": "第1節" },
+    { "id": "prechorus1", "label": "前サビ" },
+    { "id": "chorus1", "label": "サビ" },
+    { "id": "postchorus", "label": "後サビ" },
+    { "id": "verse2", "label": "第2節" },
+    { "id": "prechorus2", "label": "前サビ 2" },
+    { "id": "chorus2", "label": "サビ 2" },
+    { "id": "breakdown", "label": "ブレイクダウン" },
+    { "id": "bridge", "label": "ブリッジ" },
+    { "id": "final-chorus", "label": "最後のサビ" },
+    { "id": "outro", "label": "終わり" }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "title": "導入",
+      "mood": "月の銀と低い潮の脈が、静かな部屋へ満ちてくるように",
+      "rows": [
+        {
+          "original": "Hush… the moon threads silver through a quiet room,\nbreath skating the glass of night; ただ、静寂。\nLow tide in my chest, a pulse like a lantern,\ncalling your shadow closer—そっと、来て。",
+          "translation": "しずかに……月が銀の糸を通してゆく、静かな部屋の中へ。\n夜のガラスを息がすべる――ただ、静寂。\n胸の奥では引き潮、鼓動は灯籠みたいに揺れていて、\nあなたの影をもっと近くへ呼んでいる――そっと、来て。"
+        }
+      ]
+    },
+    {
+      "id": "verse1",
+      "title": "第1節",
+      "mood": "ゆっくりと溶ける青の中で、囁くように",
+      "rows": [
+        {
+          "original": "Your name is a slow comet, dissolving into blue,\nI wear it like a small rain on my lips.\nBetween us, velvet distances lean and listen—\nねえ、聴こえる？ その鼓動、淡く。",
+          "translation": "あなたの名前は、青へ溶けてゆく遅い彗星。\n私はそれを、小さな雨みたいに唇にまとっている。\n私たちのあいだでは、ビロードの距離が身を傾けて耳を澄ます――\nねえ、聴こえる？　その鼓動、淡く。"
+        }
+      ]
+    },
+    {
+      "id": "prechorus1",
+      "title": "前サビ",
+      "mood": "肌の上に星座が生まれ、空気そのものが薄く震えるように",
+      "rows": [
+        {
+          "original": "Fingers drift—constellations learning our skin,\nevery star a vow we never said.\n「まだ言わないで」— the air is porcelain thin,\nand the room begins to breathe.",
+          "translation": "指先が漂う――星座が私たちの肌を覚えてゆくみたいに。\nひとつひとつの星が、まだ口にしなかった誓い。\n「まだ言わないで」――空気は磁器みたいに薄く、\nそして部屋そのものが呼吸を始める。"
+        }
+      ]
+    },
+    {
+      "id": "chorus1",
+      "title": "サビ",
+      "mood": "劇的なファルセットで持ち上がり、白くにじむように広がる",
+      "rows": [
+        {
+          "original": "Silence carries us higher—静寂(しじま)が導く—\ninto a sky made of sighs and light.\nKiss the echo—囁きだけ残して—\nlet the world blur soft and white.\nAnkles of thunder, hearts on a wire,\n会えない時間さえ、やさしく溶かす。\nWe fall through the hush, and the hush falls through us.",
+          "translation": "静けさが私たちをもっと高く運ぶ――静寂が導く――\n吐息と光だけでできた空の中へ。\nこだまにくちづけて――囁きだけ残して――\n世界をやわらかく白くぼかしてしまって。\n雷の足首、一本の線の上にある心臓。\n会えない時間さえ、やさしく溶かしてしまう。\n私たちは静けさを通り抜けて落ちてゆき、静けさもまた私たちを通り抜けて落ちてゆく。"
+        }
+      ]
+    },
+    {
+      "id": "postchorus",
+      "title": "後サビ",
+      "mood": "遠い海の渦に身をまかせるように、息だけで漂う",
+      "rows": [
+        {
+          "original": "Ah—ah—遠い海のように、\nah—ah—やわらかな渦に任せて。",
+          "translation": "ああ――ああ――遠い海みたいに、\nああ――ああ――やわらかな渦に身をまかせて。"
+        }
+      ]
+    },
+    {
+      "id": "verse2",
+      "title": "第2節",
+      "mood": "夢の潮のように、火を名指さずに抱えて",
+      "rows": [
+        {
+          "original": "Curtains drift like tides in a dream,\nyour breath writes circles on my collarbone.\nWe do not name the fire—火と呼ばず—\nwe keep it sleeping in a bowl of dawn.",
+          "translation": "カーテンが漂う、夢の中の潮みたいに。\nあなたの息が、私の鎖骨の上に円を描く。\n私たちはその火を名づけない――火と呼ばず――\n夜明けの鉢の中で、眠らせたままにしておく。"
+        }
+      ]
+    },
+    {
+      "id": "prechorus2",
+      "title": "前サビ 2",
+      "mood": "まだ触れないまま、夜そのものが近づいてくるように",
+      "rows": [
+        {
+          "original": "Glass-wing prayers on the tongue,\na secret orchard opening its gates.\n「まだ、まだ」— the night leans in,\nand basslines bloom under our ribs.",
+          "translation": "舌の上には、ガラスの翅を持つ祈り。\n秘密の果樹園が、静かに門を開いてゆく。\n「まだ、まだ」――夜が身を乗り出し、\nベースラインが肋の下で花ひらく。"
+        }
+      ]
+    },
+    {
+      "id": "chorus2",
+      "title": "サビ 2",
+      "mood": "二度目はさらに深く、会えない記憶まで溶かしてゆくように",
+      "rows": [
+        {
+          "original": "Silence carries us higher—静寂(しじま)が導く—\ninto a sky made of sighs and light.\nKiss the echo—囁きだけ残して—\nlet the world blur soft and white.\nAnkles of thunder, hearts on a wire,\n会えない記憶さえ、やさしく溶かす。\nWe fall through the hush, and the hush falls through us.",
+          "translation": "静けさが私たちをもっと高く運ぶ――静寂が導く――\n吐息と光だけでできた空の中へ。\nこだまにくちづけて――囁きだけ残して――\n世界をやわらかく白くぼかしてしまって。\n雷の足首、一本の線の上にある心臓。\n会えない記憶さえ、やさしく溶かしてしまう。\n私たちは静けさを通り抜けて落ちてゆき、静けさもまた私たちを通り抜けて落ちてゆく。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown",
+      "title": "ブレイクダウン",
+      "mood": "遠い天気みたいなドラムが、身体の下で低く鳴る",
+      "rows": [
+        {
+          "original": "Drums like distant weather,\n低く—深く—身体の下で鳴る。\nWords turn to salt on our lashes,\nand time forgets to count.",
+          "translation": "ドラムは遠い天気みたいに鳴る。\n低く――深く――身体の下で鳴っている。\n言葉は睫毛の上で塩へ変わり、\n時間はもう数えることを忘れてしまう。"
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "title": "ブリッジ",
+      "mood": "半ば囁き、半ば光のこぼれとして",
+      "rows": [
+        {
+          "original": "Say nothing, love—なにも言わないで—\njust let your halo tilt and spill.\nI will sip the quiet from your shoulder,\nand trade my sleep for your light.",
+          "translation": "何も言わないで、愛しい人――なにも言わないで――\nただ、あなたの光輪が傾いてこぼれるままにして。\n私はあなたの肩から静けさをすくって飲む。\nそして自分の眠りを、あなたの光と引き換えにする。"
+        }
+      ]
+    },
+    {
+      "id": "final-chorus",
+      "title": "最後のサビ",
+      "mood": "重なった声でさらに高く、夜そのものが酒のように満ちるように",
+      "rows": [
+        {
+          "original": "Silence carries us higher—静寂(しじま)が導く—\nsighs like feathers, night like wine.\nKiss the echo—囁きだけ残して—\nふたりの名前、風へと融かす。\nAnkles of thunder, hearts on a wire,\nいまだけ、永遠に近づいて。\nWe fall through the hush, and the hush falls through us.",
+          "translation": "静けさが私たちをもっと高く運ぶ――静寂が導く――\n吐息は羽根みたいに、夜は葡萄酒みたいに。\nこだまにくちづけて――囁きだけ残して――\nふたりの名前を、風へと融かしてしまう。\n雷の足首、一本の線の上にある心臓。\nいまだけ、永遠に近づいて。\n私たちは静けさを通り抜けて落ちてゆき、静けさもまた私たちを通り抜けて落ちてゆく。"
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "title": "終わり",
+      "mood": "残響が花ひらいたまま、朝のほうへゆっくり傾いてゆく",
+      "rows": [
+        {
+          "original": "Reverbs bloom; city lights turn to moths.\nおやすみ、星。おやすみ、躯(からだ)。\nThe last note lingers—やがて朝のほうへ—\nlong after we stop moving.",
+          "translation": "残響が花ひらき、街の灯は蛾へ変わってゆく。\nおやすみ、星。おやすみ、躯。\n最後の音は長くとどまり――やがて朝のほうへ――\n私たちが動くのをやめたあとまでも。"
+        }
+      ]
+    }
+  ]
+}
