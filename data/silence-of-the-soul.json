@@ -1,0 +1,144 @@
+{
+  "slug": "silence-of-the-soul",
+  "title_ja": "魂の静寂",
+  "title_en": "Silence of the Soul",
+  "page_title": "魂の静寂 — Silence of the Soul | 対訳歌詞",
+  "kicker": "深い夜に満たされ、愛へゆっくり溶けてゆく",
+  "song_url": "https://suno.com/s/MJKIGORWJn5Z3NPt",
+  "subtitle_html": "英語の原詞と、日本語訳を対訳形式で並べたページです。訳文は、深い夜の静けさの中で、ふたりの呼吸と鼓動が少しずつ重なり、やがて愛そのものへ溶けてゆく感触を大切に整えています。ここでは沈黙は空白ではなく、魂のいちばん奥で相手に満たされてゆくための、やわらかな器として響いています。",
+  "note_html": "章見出しや歌唱・演奏の指示も、日本語で読めるように訳しています。そのため、熱を帯びた静けさ、深い低音の脈動、そして高くほどけるファルセットの高まりが、そのまま自然に伝わる構成です。とくに「魂の静寂」「愛に飲まれてゆくこと」「鼓動だけが確かなものとして残ること」が、この曲の甘く深い核心として響くようにしています。",
+  "song_link_note": "タイトルからも楽曲ページへ移動できます",
+  "toc": [
+    { "id": "intro", "label": "導入" },
+    { "id": "verse1", "label": "第1節" },
+    { "id": "prechorus1", "label": "前サビ" },
+    { "id": "chorus1", "label": "サビ" },
+    { "id": "interlude", "label": "間奏" },
+    { "id": "verse2", "label": "第2節" },
+    { "id": "prechorus2", "label": "前サビ 2" },
+    { "id": "chorus2", "label": "サビ 2" },
+    { "id": "solo", "label": "ソロ" },
+    { "id": "bridge", "label": "ブリッジ" },
+    { "id": "hook", "label": "フック" },
+    { "id": "outro", "label": "終わり" }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "title": "導入",
+      "mood": "インストゥルメンタルのみ、深いサブベースが夜の底をひらくように",
+      "instrumental": "【導入：インストゥルメンタル。声は入らず、ハミングもアドリブもない。ダーク・アンビエント・トランス、深いサブベース。】"
+    },
+    {
+      "id": "verse1",
+      "title": "第1節",
+      "mood": "夢見るような囁きで、静かな降伏へほどけてゆくように",
+      "rows": [
+        {
+          "original": "Silk on skin, a soft surrender\n月の雫 溶ける\nBeneath the moon, so warm and tender\n静かな 闇の奥",
+          "translation": "肌の上の絹、やわらかな明け渡し。\n月の雫が溶ける。\n月の下で、こんなにもあたたかく、やさしく。\n静かな闇の奥で。"
+        }
+      ]
+    },
+    {
+      "id": "prechorus1",
+      "title": "前サビ",
+      "mood": "低いベースの脈に導かれ、呼吸と鼓動が重なってゆくように",
+      "rows": [
+        {
+          "original": "Breathing in the velvet night\n吐息 重なり合う\nHolding on to fading light\n鼓動 重なり合う",
+          "translation": "ビロードみたいな夜を吸いこんで。\n吐息が重なり合う。\n消えかけた光にすがりながら。\n鼓動が重なり合う。"
+        }
+      ]
+    },
+    {
+      "id": "chorus1",
+      "title": "サビ",
+      "mood": "恍惚としたトランスの高まりの中で、やわらかく解けてゆくように",
+      "rows": [
+        {
+          "original": "In the silence of your soul\n永遠に 満たされて\nLosing all of my control\n愛に 飲まれてゆく\nFloating in the midnight blue\nYour heartbeat is all I know\nIn the silence of your soul",
+          "translation": "あなたの魂の静寂の中で。\n永遠に満たされて。\n私はもう何ひとつ、自分を保てなくなる。\n愛に飲まれてゆく。\n真夜中の青に漂いながら。\n私が知っているのは、あなたの鼓動だけ。\nあなたの魂の静寂の中で。"
+        }
+      ]
+    },
+    {
+      "id": "interlude",
+      "title": "間奏",
+      "mood": "深い低音とリズミックなシンセが、熱の余韻を脈打たせるように",
+      "instrumental": "【間奏：深く響くベース、リズミックに弾かれるシンセ。】"
+    },
+    {
+      "id": "verse2",
+      "title": "第2節",
+      "mood": "触れあうたびに言葉が消えて、夜そのものへ溺れてゆくように",
+      "rows": [
+        {
+          "original": "Words are lost in every touch\n秘密 交わし合う\nFeeling love is just too much\n夜に 溺れてゆく",
+          "translation": "触れあうたびに、言葉は失われてゆく。\n秘密を交わし合う。\n愛を感じることは、もうあまりにも深すぎて。\n夜に溺れてゆく。"
+        }
+      ]
+    },
+    {
+      "id": "prechorus2",
+      "title": "前サビ 2",
+      "mood": "聖なる空間へ漂いこみ、熱まで溶け合ってゆくように",
+      "rows": [
+        {
+          "original": "Drifting into holy space\n指先 触れ合う\nLost inside your soft embrace\n熱が 溶け合って",
+          "translation": "聖なる空間へ漂いこんでゆく。\n指先が触れ合う。\nあなたのやわらかな抱擁の中で、私はもう見失われて。\n熱が溶け合ってゆく。"
+        }
+      ]
+    },
+    {
+      "id": "chorus2",
+      "title": "サビ 2",
+      "mood": "二度目はさらに深く、愛に満たされたまま高く浮遊するように",
+      "rows": [
+        {
+          "original": "In the silence of your soul\n永遠に 満たされて\nLosing all of my control\n愛に 飲まれてゆく\nFloating in the midnight blue\nYour heartbeat is all I know\nIn the silence of your soul",
+          "translation": "あなたの魂の静寂の中で。\n永遠に満たされて。\n私はもう何ひとつ、自分を保てなくなる。\n愛に飲まれてゆく。\n真夜中の青に漂いながら。\n私が知っているのは、あなたの鼓動だけ。\nあなたの魂の静寂の中で。"
+        }
+      ]
+    },
+    {
+      "id": "solo",
+      "title": "ソロ",
+      "mood": "長い残響を引くシンセが、夢の芯だけを照らすように",
+      "instrumental": "【ソロ：長い残響をまとった、空気のようなシンセ・リード。】"
+    },
+    {
+      "id": "bridge",
+      "title": "ブリッジ",
+      "mood": "クライマックスへ向かって、海の呼び声の中でふたりだけが残るように",
+      "rows": [
+        {
+          "original": "Deep inside the ocean's call\nWe rise and then we fall\nBeyond the edge, beyond it all\nOnly we remain",
+          "translation": "海の呼び声の、深い深いところで。\n私たちは昇り、それから落ちてゆく。\nその境を越えて、すべてを越えて。\n残るのは、ただ私たちだけ。"
+        }
+      ]
+    },
+    {
+      "id": "hook",
+      "title": "フック",
+      "mood": "高いファルセットが、愛へ飲まれる感覚をひとすじに掲げるように",
+      "rows": [
+        {
+          "original": "Silence of your soul\n愛に 飲まれてゆく\nSilence of your soul",
+          "translation": "あなたの魂の静寂。\n愛に飲まれてゆく。\nあなたの魂の静寂。"
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "title": "終わり",
+      "mood": "音が消えながらも、触れた感覚だけがかすかに残るように",
+      "rows": [
+        {
+          "original": "Silk on skin, so soft\nSilence...\nIn the silence...",
+          "translation": "肌の上の絹、こんなにもやわらかく。\n静寂……\nその静寂の中で……"
+        }
+      ]
+    }
+  ]
+}
