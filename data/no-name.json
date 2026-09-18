@@ -4,23 +4,59 @@
   "title_en": "No Name",
   "page_title": "名前なんて、ないの — No Name | 対訳歌詞",
   "kicker": "三十億年を憶えていて、ただひとりを忘れてしまう",
-  "song_url": "https://suno.com/s/OXdBYK9GrP4zsIOY",
+  "song_url": "https://suno.com/s/HXCfDv0RR0KPoacO",
   "subtitle_html": "梶尾真治『おもいでエマノン』に着想を得た歌詞です。生命が誕生して以来の記憶を母から娘へ受け継ぎ続けるエマノンという存在を、原作よりも強く恋愛の側へ引き寄せ、愛した人を記憶している今の「私」と、その記憶をすべて受け継ぎながら彼を愛した主体ではなくなる未来との別れとして描いています。",
   "note_html": "原作のエマノンは、この歌ほど感傷的に自らの宿命を嘆く人物ではありません。この歌では、娘への記憶継承と母の記憶喪失という原作の設定を核にしながら、「娘はあなたを覚えているのに、私はあなたを知らなくなる」という恋愛的な逆説を前面に押し出しています。章見出しや歌唱・演奏指示も日本語で読めるように訳しています。",
   "song_link_note": "タイトルからも楽曲ページへ移動できます",
   "toc": [
-    { "id": "intro", "label": "導入" },
-    { "id": "verse1", "label": "第1節" },
-    { "id": "prechorus1", "label": "前サビ" },
-    { "id": "chorus1", "label": "サビ" },
-    { "id": "verse2", "label": "第2節" },
-    { "id": "prechorus2", "label": "前サビ 2" },
-    { "id": "chorus2", "label": "サビ 2" },
-    { "id": "postchorus", "label": "後サビ" },
-    { "id": "bridge", "label": "ブリッジ" },
-    { "id": "breakdown", "label": "ブレイクダウン" },
-    { "id": "final-chorus", "label": "最後のサビ" },
-    { "id": "outro", "label": "終わり" }
+    {
+      "id": "intro",
+      "label": "導入"
+    },
+    {
+      "id": "verse1",
+      "label": "第1節"
+    },
+    {
+      "id": "prechorus1",
+      "label": "前サビ"
+    },
+    {
+      "id": "chorus1",
+      "label": "サビ"
+    },
+    {
+      "id": "verse2",
+      "label": "第2節"
+    },
+    {
+      "id": "prechorus2",
+      "label": "前サビ 2"
+    },
+    {
+      "id": "chorus2",
+      "label": "サビ 2"
+    },
+    {
+      "id": "postchorus",
+      "label": "後サビ"
+    },
+    {
+      "id": "bridge",
+      "label": "ブリッジ"
+    },
+    {
+      "id": "breakdown",
+      "label": "ブレイクダウン"
+    },
+    {
+      "id": "final-chorus",
+      "label": "最後のサビ"
+    },
+    {
+      "id": "outro",
+      "label": "終わり"
+    }
   ],
   "sections": [
     {
@@ -75,7 +111,7 @@
         },
         {
           "original": "If I give life,\nI give her everything—\nthe oceans, the fires,\nyour eyes, this night.",
-          "translation": "もし私が命を産めば、\n私はあの子にすべてを渡す――\n海も、炎も、\nあなたの瞳も、この夜も。"
+          "translation": "もし私が命を産めば、\n私はその子にすべてを渡す――\n海も、炎も、\nあなたの瞳も、この夜も。"
         },
         {
           "original": "そして私は\nあなたを忘れる。\n\nSo love me now,\n愛して、今だけ\nbefore tomorrow learns my name.",
@@ -89,7 +125,7 @@
       "mood": "三十億年という時間と、たった一夜の恐れを並べ、その不釣り合いを愛の重さに変えるように",
       "rows": [
         {
-          "original": "Thirty hundred million years behind me,\nand still a single night can make me afraid.\nStrange that eternity never taught me\nhow to watch one human heartbeat fade.",
+          "original": "Three billion years behind me,\nand still a single night can make me afraid.\nStrange that eternity never taught me\nhow to watch one human heartbeat fade.",
           "translation": "背後には三十億年もの歳月がある。\nそれでも、たった一夜が私を怖がらせる。\nおかしなものね。永遠という時間でさえ、\nたったひとりの鼓動が消えてゆくのを見送る方法は、教えてくれなかった。"
         },
         {
@@ -128,7 +164,7 @@
         },
         {
           "original": "If I bear a daughter,\nshe will wake with everything—\nthe ancient rain,\nthe first heartbeat,\nthis room,\nyour skin,\nyour name.",
-          "translation": "もし私が娘を産めば、\nあの子はすべてを携えて目を覚ます――\n太古の雨、\n最初の鼓動、\nこの部屋、\nあなたの肌、\nあなたの名前。"
+          "translation": "もし私が娘を産めば、\nその子はすべてを携えて目を覚ます――\n太古の雨、\n最初の鼓動、\nこの部屋、\nあなたの肌、\nあなたの名前。"
         },
         {
           "original": "でも私は\nあなたを知らない。\n\nSo hold me now,\n忘れないで\nwhen I become the one who can't.",
@@ -181,19 +217,19 @@
       "rows": [
         {
           "original": "She will remember you.",
-          "translation": "あの子は、あなたを覚えている。"
+          "translation": "その子は、あなたを覚えている。"
         },
         {
           "original": "She will know\nhow your voice changed\nwhen you tried not to be lonely.",
-          "translation": "あなたが寂しくないふりをした時、\nその声がどんなふうに変わったのかも、\nあの子は知っている。"
+          "translation": "あなたが寂しくないふりをした時、\nその声がどんなふうに変わったのかも、\nその子は知っている。"
         },
         {
           "original": "She will remember\nthe warmth of your shoulder,\nthe dark water outside,\nthe engine beneath us,\nthe little silence\nbefore we touched.",
-          "translation": "あの子は覚えている。\nあなたの肩のぬくもりを。\n外に広がる暗い水を。\n私たちの下で響いていたエンジンを。\nそして、触れあう直前の\nあの小さな沈黙を。"
+          "translation": "その子は覚えている。\nあなたの肩のぬくもりを。\n外に広がる暗い水を。\n私たちの下で響いていたエンジンを。\nそして、触れあう直前の\nあの小さな沈黙を。"
         },
         {
           "original": "She will remember\nthat I loved you.\n\nAnd I—\n\n私は、何も知らない。",
-          "translation": "あの子は覚えている。\n私があなたを愛していたことを。\n\nそして私は――\n\n私は、何も知らない。"
+          "translation": "その子は覚えている。\n私があなたを愛していたことを。\n\nそして私は――\n\n私は、何も知らない。"
         }
       ]
     },
@@ -212,7 +248,7 @@
         },
         {
           "original": "She'll carry the stars.\nShe'll carry the sea.\nShe'll carry this night.\nShe'll carry you.",
-          "translation": "あの子は星々を受け継ぐ。\n海を受け継ぐ。\nこの夜を受け継ぐ。\nあなたを受け継ぐ。"
+          "translation": "その子は星々を受け継ぐ。\n海を受け継ぐ。\nこの夜を受け継ぐ。\nあなたを受け継ぐ。"
         },
         {
           "original": "あなたを愛したことも\n全部、全部——\n\nand I will be free\nin the most terrible way.",
@@ -235,7 +271,7 @@
       "rows": [
         {
           "original": "Before the first eye opened,\nI remembered.\n\nAfter my last memory leaves,\nshe will remember.",
-          "translation": "最初の眼がひらくより前から、\n私は覚えていた。\n\n私の最後の記憶が去ったあとも、\nあの子は覚えている。"
+          "translation": "最初の眼がひらくより前から、\n私は覚えていた。\n\n私の最後の記憶が去ったあとも、\nその子は覚えている。"
         },
         {
           "original": "あなたのことも。\n\nあなたを愛したことも。",
