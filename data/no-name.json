@@ -1,0 +1,255 @@
+{
+  "slug": "no-name",
+  "title_ja": "名前なんて、ないの",
+  "title_en": "No Name",
+  "page_title": "名前なんて、ないの — No Name | 対訳歌詞",
+  "kicker": "三十億年を憶えていて、ただひとりを忘れてしまう",
+  "song_url": "https://suno.com/s/OXdBYK9GrP4zsIOY",
+  "subtitle_html": "梶尾真治『おもいでエマノン』に着想を得た歌詞です。生命が誕生して以来の記憶を母から娘へ受け継ぎ続けるエマノンという存在を、原作よりも強く恋愛の側へ引き寄せ、愛した人を記憶している今の「私」と、その記憶をすべて受け継ぎながら彼を愛した主体ではなくなる未来との別れとして描いています。",
+  "note_html": "原作のエマノンは、この歌ほど感傷的に自らの宿命を嘆く人物ではありません。この歌では、娘への記憶継承と母の記憶喪失という原作の設定を核にしながら、「娘はあなたを覚えているのに、私はあなたを知らなくなる」という恋愛的な逆説を前面に押し出しています。章見出しや歌唱・演奏指示も日本語で読めるように訳しています。",
+  "song_link_note": "タイトルからも楽曲ページへ移動できます",
+  "toc": [
+    { "id": "intro", "label": "導入" },
+    { "id": "verse1", "label": "第1節" },
+    { "id": "prechorus1", "label": "前サビ" },
+    { "id": "chorus1", "label": "サビ" },
+    { "id": "verse2", "label": "第2節" },
+    { "id": "prechorus2", "label": "前サビ 2" },
+    { "id": "chorus2", "label": "サビ 2" },
+    { "id": "postchorus", "label": "後サビ" },
+    { "id": "bridge", "label": "ブリッジ" },
+    { "id": "breakdown", "label": "ブレイクダウン" },
+    { "id": "final-chorus", "label": "最後のサビ" },
+    { "id": "outro", "label": "終わり" }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "title": "導入",
+      "mood": "ほとんど乾いた囁きで、個人としての「私」が生まれる以前へ遡るように",
+      "rows": [
+        {
+          "original": "Before the first eye opened,\nbefore the first mouth learned the sea,\nI was there—\nnot as a girl,\nnot even as me.\n\nただ、覚えてる。\nずっと。\nずっと。",
+          "translation": "最初の眼がひらくより前、\n最初の口が海を知るより前から、\n私はそこにいた――\n少女としてではなく、\n私としてですらなく。\n\nただ、覚えてる。\nずっと。\nずっと。"
+        }
+      ]
+    },
+    {
+      "id": "verse1",
+      "title": "第1節",
+      "mood": "生命の原初から現在までを、ひとつの身体の記憶として静かに語るように",
+      "rows": [
+        {
+          "original": "I remember sunlight with no one to see it,\nwarm black oceans under a younger moon,\nthe first small hunger dividing in silence,\na billion deaths that ended too soon.",
+          "translation": "見る者などまだ誰もいなかった陽の光を覚えている。\n今より若い月の下にあった、あたたかな黒い海を。\n静寂の中で分裂してゆく、最初の小さな飢えを。\nあまりにも早く終わった、十億もの死を。"
+        },
+        {
+          "original": "I remember scales, I remember feathers,\nblood learning how to carry fear,\nevery mother reaching for another,\nevery vanished world is still in here.",
+          "translation": "鱗を覚えている。羽毛を覚えている。\n血が、恐怖を運ぶことを覚えていった時を。\n誰かへ手を伸ばした、あらゆる母を。\n消えていった世界のすべてが、今もここにある。"
+        },
+        {
+          "original": "And now you ask me for my name\nlike I could ever own just one.\nCall me anything you want tonight—\n名前なんて、ないの。",
+          "translation": "それなのに今、あなたは私の名前を尋ねる。\nまるで私が、たったひとつの名前を持てるみたいに。\n今夜だけは、好きなように私を呼んで――\n名前なんて、ないの。"
+        }
+      ]
+    },
+    {
+      "id": "prechorus1",
+      "title": "前サビ",
+      "mood": "永遠と記憶を、救いではなく喪失の重さとして噛みしめるように",
+      "rows": [
+        {
+          "original": "You think forever means I cannot lose.\nYou think remembering is being saved.\nBut every love becomes another fossil,\nbeautifully buried,\nperfectly engraved.",
+          "translation": "あなたは、永遠なら何も失わないと思っている。\n覚えていることは、救われることだと思っている。\nでも、どんな愛もやがてひとつの化石になる。\n美しく埋められ、\n完璧に刻みつけられた化石に。"
+        }
+      ]
+    },
+    {
+      "id": "chorus1",
+      "title": "サビ",
+      "mood": "記憶し続ける者が、自分だけはいずれその記憶から消える逆説を大きく歌い上げるように",
+      "rows": [
+        {
+          "original": "I remember, I remember—\nおもいでだけが　生きている\nEvery hand I held, every mouth I kissed,\n全部、消えない\nbut I will.",
+          "translation": "私は覚えている、覚えている――\nおもいでだけが、生きている。\n握ったすべての手も、口づけを交わしたすべての人も、\n全部、消えない。\nでも、私は消える。"
+        },
+        {
+          "original": "If I give life,\nI give her everything—\nthe oceans, the fires,\nyour eyes, this night.",
+          "translation": "もし私が命を産めば、\n私はあの子にすべてを渡す――\n海も、炎も、\nあなたの瞳も、この夜も。"
+        },
+        {
+          "original": "そして私は\nあなたを忘れる。\n\nSo love me now,\n愛して、今だけ\nbefore tomorrow learns my name.",
+          "translation": "そして私は\nあなたを忘れる。\n\nだから今、私を愛して。\n愛して、今だけ。\n明日が私の名前を覚えてしまう、その前に。"
+        }
+      ]
+    },
+    {
+      "id": "verse2",
+      "title": "第2節",
+      "mood": "三十億年という時間と、たった一夜の恐れを並べ、その不釣り合いを愛の重さに変えるように",
+      "rows": [
+        {
+          "original": "Thirty hundred million years behind me,\nand still a single night can make me afraid.\nStrange that eternity never taught me\nhow to watch one human heartbeat fade.",
+          "translation": "背後には三十億年もの歳月がある。\nそれでも、たった一夜が私を怖がらせる。\nおかしなものね。永遠という時間でさえ、\nたったひとりの鼓動が消えてゆくのを見送る方法は、教えてくれなかった。"
+        },
+        {
+          "original": "I have known the bones beneath the mountains,\nheard forests breathe where cities stand,\nwatched your species wake into its sorrow,\nstill I tremble when you touch my hand.",
+          "translation": "山々の下に眠る骨を知っている。\nいま街が立つ場所で、森が呼吸する音を聞いたこともある。\nあなたたちという種が目覚め、悲しみを知ってゆくのも見てきた。\nそれなのに、あなたが私の手に触れると、私は今も震える。"
+        },
+        {
+          "original": "You are so brief.\nThat should make you nothing.\n\nなのに、どうして？",
+          "translation": "あなたは、あまりにも短い。\nそんなもの、本当なら何でもないはずなのに。\n\nなのに、どうして？"
+        },
+        {
+          "original": "Why does your voice\nfeel heavier than ages?\nWhy do I want this moment\nto refuse the dawn?",
+          "translation": "どうしてあなたの声は、\n幾つもの時代より重く感じるの？\nどうして私は、この瞬間に\n夜明けを拒んでほしいと願ってしまうの？"
+        }
+      ]
+    },
+    {
+      "id": "prechorus2",
+      "title": "前サビ 2",
+      "mood": "共に生きることも去ることも、結局は同じひとつの記憶になると知りながら",
+      "rows": [
+        {
+          "original": "I could stay beside you for a lifetime.\nI could leave before the morning blue.\nAgainst the weight of all creation,\neither way becomes\none memory of you.",
+          "translation": "あなたのそばで、一生を過ごすことだってできる。\n朝が青くなる前に、去ることだってできる。\nでも、この創造のすべての重みに比べれば、\nどちらを選んだって結局は\nあなたについての、ひとつのおもいでになる。"
+        }
+      ]
+    },
+    {
+      "id": "chorus2",
+      "title": "サビ 2",
+      "mood": "娘へすべてを渡す未来を具体的に見つめ、喪失をより近くへ引き寄せるように",
+      "rows": [
+        {
+          "original": "I remember, I remember—\n生命の夢を　抱いている\nEvery first goodbye, every last embrace,\n全部、消えない\nbut I will.",
+          "translation": "私は覚えている、覚えている――\n生命の夢を、抱いている。\n最初のさよならも、最後の抱擁も、\n全部、消えない。\nでも、私は消える。"
+        },
+        {
+          "original": "If I bear a daughter,\nshe will wake with everything—\nthe ancient rain,\nthe first heartbeat,\nthis room,\nyour skin,\nyour name.",
+          "translation": "もし私が娘を産めば、\nあの子はすべてを携えて目を覚ます――\n太古の雨、\n最初の鼓動、\nこの部屋、\nあなたの肌、\nあなたの名前。"
+        },
+        {
+          "original": "でも私は\nあなたを知らない。\n\nSo hold me now,\n忘れないで\nwhen I become the one who can't.",
+          "translation": "でも私は\nあなたを知らない。\n\nだから今、私を抱いて。\n忘れないで。\n私のほうが、忘れずにはいられない者になってしまう時にも。"
+        }
+      ]
+    },
+    {
+      "id": "postchorus",
+      "title": "後サビ",
+      "mood": "息混じりのファルセットで、未来の自分にはできない記憶を相手へ託すように",
+      "rows": [
+        {
+          "original": "Remember me\nwhen I don't remember you.\n\n覚えていて。",
+          "translation": "私を覚えていて。\n私があなたを覚えていられなくなった時も。\n\n覚えていて。"
+        },
+        {
+          "original": "Remember me\nwhen these eyes look through you.\n\nごめんね。\nごめんね。",
+          "translation": "私を覚えていて。\nこの眼が、あなたを知らない人のように通り過ぎてしまう時も。\n\nごめんね。\nごめんね。"
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "title": "ブリッジ",
+      "mood": "ドラムを止め、声とチェロと低い脈だけで、「私」とは誰なのかを問い直すように",
+      "rows": [
+        {
+          "original": "Maybe I am not the woman.\nMaybe I am only what survives her.",
+          "translation": "もしかすると私は、この女そのものではないのかもしれない。\n彼女が消えたあとにも残り続ける何かなのかもしれない。"
+        },
+        {
+          "original": "A vessel passing fire\nfrom mother into daughter,\nhand to hand,\nbody to body,\n夜から夜へ。",
+          "translation": "火を受け渡してゆく器。\n母から娘へ、\n手から手へ、\n身体から身体へ、\n夜から夜へ。"
+        },
+        {
+          "original": "I have carried the memory\nof creatures with no names.\nI have carried extinction\nlike a lullaby.",
+          "translation": "私は運んできた。\n名前さえ持たなかった生きものたちの記憶を。\n絶滅さえも、\n子守歌のように抱えてきた。"
+        },
+        {
+          "original": "But this—\n\nthis is the cruelest thing\nlife ever asked of me:\n\nto know exactly\nhow much I love you,\n\nand know that someday\nその「私」だけが\nいなくなる。",
+          "translation": "でも、これは――\n\n生命が私に求めたことの中で、\nいちばん残酷なこと。\n\n自分がどれほどあなたを愛しているのかを\nこんなにはっきり知りながら、\n\nいつか\nその「私」だけが\nいなくなると知っていること。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown",
+      "title": "ブレイクダウン",
+      "mood": "ほとんど語るように、娘に残る記憶と自分から失われる経験をひとつずつ確認するように",
+      "rows": [
+        {
+          "original": "She will remember you.",
+          "translation": "あの子は、あなたを覚えている。"
+        },
+        {
+          "original": "She will know\nhow your voice changed\nwhen you tried not to be lonely.",
+          "translation": "あなたが寂しくないふりをした時、\nその声がどんなふうに変わったのかも、\nあの子は知っている。"
+        },
+        {
+          "original": "She will remember\nthe warmth of your shoulder,\nthe dark water outside,\nthe engine beneath us,\nthe little silence\nbefore we touched.",
+          "translation": "あの子は覚えている。\nあなたの肩のぬくもりを。\n外に広がる暗い水を。\n私たちの下で響いていたエンジンを。\nそして、触れあう直前の\nあの小さな沈黙を。"
+        },
+        {
+          "original": "She will remember\nthat I loved you.\n\nAnd I—\n\n私は、何も知らない。",
+          "translation": "あの子は覚えている。\n私があなたを愛していたことを。\n\nそして私は――\n\n私は、何も知らない。"
+        }
+      ]
+    },
+    {
+      "id": "final-chorus",
+      "title": "最後のサビ",
+      "mood": "弦を大きく広げ、三十億年の記憶とたったひとつの恋を同じ重さで抱えながら",
+      "rows": [
+        {
+          "original": "I remember, I remember—\n三十億年の　おもいでを\nEvery birth, every grave,\nevery beautiful mistake,\n全部、私の中にある。",
+          "translation": "私は覚えている、覚えている――\n三十億年のおもいでを。\nあらゆる誕生も、あらゆる墓も、\n美しかったすべての過ちも、\n全部、私の中にある。"
+        },
+        {
+          "original": "But when my daughter opens her eyes,\nthe universe moves on without me.",
+          "translation": "でも、私の娘が眼をひらく時、\n宇宙は私を置き去りにして、その先へ進んでゆく。"
+        },
+        {
+          "original": "She'll carry the stars.\nShe'll carry the sea.\nShe'll carry this night.\nShe'll carry you.",
+          "translation": "あの子は星々を受け継ぐ。\n海を受け継ぐ。\nこの夜を受け継ぐ。\nあなたを受け継ぐ。"
+        },
+        {
+          "original": "あなたを愛したことも\n全部、全部——\n\nand I will be free\nin the most terrible way.",
+          "translation": "あなたを愛したことも、\n全部、全部――\n\nそして私は、\nいちばん残酷なかたちで自由になる。"
+        },
+        {
+          "original": "So kiss me now,\n愛して、今だけ\nas if a moment could be enough.",
+          "translation": "だから今、私にくちづけて。\n愛して、今だけ。\nまるで、たった一瞬だけで十分だというように。"
+        },
+        {
+          "original": "Say my name—\n名前のない私を\n呼んで。\n\nOne last time\nwhile it still belongs to me.",
+          "translation": "私の名前を呼んで――\n名前のない私を\n呼んで。\n\nあと一度だけ。\nその名前が、まだ私のものであるうちに。"
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "title": "終わり",
+      "mood": "弦が遠ざかる中、冒頭の時間へ戻りながら、未来の再会を他人同士の別れへ反転させるように",
+      "rows": [
+        {
+          "original": "Before the first eye opened,\nI remembered.\n\nAfter my last memory leaves,\nshe will remember.",
+          "translation": "最初の眼がひらくより前から、\n私は覚えていた。\n\n私の最後の記憶が去ったあとも、\nあの子は覚えている。"
+        },
+        {
+          "original": "あなたのことも。\n\nあなたを愛したことも。",
+          "translation": "あなたのことも。\n\nあなたを愛したことも。"
+        },
+        {
+          "original": "But somewhere in tomorrow,\nyou may meet my face again—\n\nand I will look at you\nlike we have never met.",
+          "translation": "でも、いつか未来のどこかで、\nあなたはもう一度、私と同じ顔に出会うかもしれない――\n\nそして私はあなたを見る。\nまるで、私たちが一度も出会ったことなどないように。"
+        },
+        {
+          "original": "知らない人。\n…さよなら。",
+          "translation": "知らない人。\n……さよなら。"
+        }
+      ]
+    }
+  ]
+}

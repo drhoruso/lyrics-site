@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>名前なんて、ないの — No Name | 対訳歌詞</title>
+  <style>
+    :root {
+      --bg: #0f0c12;
+      --bg-2: #17121b;
+      --panel: rgba(255,255,255,0.06);
+      --panel-strong: rgba(255,255,255,0.1);
+      --text: #f6f1f7;
+      --muted: #cbbdcc;
+      --faint: #9d8fa0;
+      --accent: #e8b7c8;
+      --accent-2: #b99ad9;
+      --line: rgba(255,255,255,0.12);
+      --shadow: 0 18px 48px rgba(0,0,0,0.38);
+      --radius: 20px;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(185,154,217,0.18), transparent 34%),
+        radial-gradient(circle at top right, rgba(232,183,200,0.14), transparent 30%),
+        linear-gradient(180deg, #1a131d 0%, #110d14 35%, #0c0a0f 100%);
+      line-height: 1.9;
+      letter-spacing: 0.02em;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(180deg, rgba(12,10,15,0.1), rgba(12,10,15,0));
+      z-index: 0;
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      width: min(calc(100% - 28px), var(--max));
+      margin: 0 auto;
+      padding: 28px 0 72px;
+    }
+
+    .hero {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: calc(var(--radius) + 8px);
+      background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+      margin-bottom: 26px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: auto -10% -40% auto;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, rgba(232,183,200,0.18), transparent 65%);
+      pointer-events: none;
+    }
+
+    .kicker {
+      color: var(--accent);
+      font-size: 0.84rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.95rem, 4vw, 3.15rem);
+      line-height: 1.12;
+      letter-spacing: 0.01em;
+      font-weight: 800;
+      text-wrap: balance;
+    }
+
+    .subtitle {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.1rem);
+      max-width: 54rem;
+    }
+
+    .note {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border-left: 3px solid var(--accent);
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      color: var(--muted);
+      font-size: 0.97rem;
+    }
+
+    .toc {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0 14px;
+    }
+
+    .toc a {
+      display: inline-flex;
+      align-items: center;
+      padding: 9px 13px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.05);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.9rem;
+      line-height: 1.2;
+      transition: background-color 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .toc a:hover,
+    .toc a:focus-visible {
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(232,183,200,0.42);
+      transform: translateY(-1px);
+      outline: none;
+    }
+
+    .song-link-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .song-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 9px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.92rem;
+      line-height: 1.2;
+      transition: background-color 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .song-link:hover,
+    .song-link:focus-visible {
+      background: rgba(255,255,255,0.11);
+      border-color: rgba(232,183,200,0.42);
+      transform: translateY(-1px);
+      outline: none;
+    }
+
+    .song-link-note {
+      color: var(--faint);
+      font-size: 0.88rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 22px;
+    }
+
+    .section {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.035));
+      box-shadow: var(--shadow);
+      scroll-margin-top: 18px;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 18px;
+      background: linear-gradient(90deg, rgba(232,183,200,0.12), rgba(185,154,217,0.1));
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: 0.03em;
+    }
+
+    .section-mood {
+      font-size: 0.9rem;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .rows {
+      display: grid;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 0;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+
+    .row:last-child {
+      border-bottom: none;
+    }
+
+    .cell {
+      padding: 18px 20px;
+      min-width: 0;
+    }
+
+    .cell.original {
+      background: rgba(255,255,255,0.015);
+      border-right: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .cell.translation {
+      background: rgba(255,255,255,0.03);
+    }
+
+    .line {
+      white-space: pre-line;
+      font-size: 1.02rem;
+      word-break: normal;
+      overflow-wrap: anywhere;
+    }
+
+    .line.jp {
+      color: #fff7fb;
+    }
+
+    .meta {
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 10px;
+      padding: 3px 9px;
+      color: var(--faint);
+      font-size: 0.77rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+    }
+
+    .instrumental {
+      padding: 20px;
+      color: var(--muted);
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      font-style: italic;
+      font-size: 1rem;
+    }
+
+    .back-link-wrap {
+      margin-top: 22px;
+      display: flex;
+      justify-content: center;
+      padding: 0 10px;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.05);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.92rem;
+      line-height: 1.2;
+      transition: background-color 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .back-link:hover,
+    .back-link:focus-visible {
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(232,183,200,0.42);
+      transform: translateY(-1px);
+      outline: none;
+    }
+
+    footer {
+      margin-top: 26px;
+      color: var(--faint);
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    @media (max-width: 820px) {
+      .toc {
+        gap: 8px;
+        margin: 16px 0 12px;
+      }
+
+      .toc a {
+        padding: 8px 11px;
+        font-size: 0.84rem;
+      }
+
+      .song-link-wrap {
+        gap: 8px;
+        margin-top: 16px;
+      }
+
+      .song-link {
+        padding: 8px 12px;
+        font-size: 0.86rem;
+      }
+
+      .song-link-note {
+        font-size: 0.8rem;
+      }
+
+      body {
+        line-height: 1.85;
+      }
+
+      .wrap {
+        width: min(calc(100% - 16px), var(--max));
+        padding-top: 10px;
+        padding-bottom: 44px;
+      }
+
+      .hero {
+        padding: 20px 16px 18px;
+        border-radius: 18px;
+        margin-bottom: 18px;
+      }
+
+      .hero::before {
+        width: 220px;
+        height: 220px;
+        inset: auto -18% -26% auto;
+      }
+
+      .kicker {
+        font-size: 0.74rem;
+        letter-spacing: 0.1em;
+      }
+
+      h1 {
+        font-size: clamp(1.8rem, 8vw, 2.35rem);
+        line-height: 1.14;
+      }
+
+      .subtitle {
+        font-size: 0.98rem;
+        line-height: 1.82;
+      }
+
+      .note {
+        font-size: 0.93rem;
+        line-height: 1.8;
+        padding: 12px 13px;
+      }
+
+      .grid {
+        gap: 16px;
+      }
+
+      .section {
+        border-radius: 16px;
+      }
+
+      .section-head {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        padding: 12px 13px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        background: linear-gradient(90deg, rgba(31,22,35,0.92), rgba(41,29,49,0.88));
+      }
+
+      .section-title {
+        font-size: 1rem;
+      }
+
+      .section-mood {
+        white-space: normal;
+        font-size: 0.84rem;
+        line-height: 1.6;
+      }
+
+      .row {
+        grid-template-columns: 1fr;
+      }
+
+      .cell {
+        padding: 13px 13px 14px;
+      }
+
+      .cell.original {
+        border-right: none;
+        border-bottom: 1px dashed rgba(255,255,255,0.08);
+      }
+
+      .cell.translation {
+        background: rgba(255,255,255,0.045);
+      }
+
+      .line {
+        font-size: 1rem;
+        line-height: 1.9;
+      }
+
+      .meta {
+        margin-bottom: 8px;
+        font-size: 0.72rem;
+      }
+
+      .meta.mobile-hide {
+        display: inline-flex;
+      }
+
+      .instrumental {
+        padding: 15px 13px 16px;
+        font-size: 0.97rem;
+        line-height: 1.85;
+      }
+
+      .back-link-wrap {
+        margin-top: 18px;
+      }
+
+      .back-link {
+        padding: 9px 14px;
+        font-size: 0.86rem;
+      }
+
+      footer {
+        margin-top: 20px;
+        font-size: 0.82rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .wrap {
+        width: min(calc(100% - 12px), var(--max));
+      }
+
+      .hero {
+        padding: 18px 14px 16px;
+      }
+
+      .cell {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .line {
+        font-size: 0.98rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      * {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">三十億年を憶えていて、ただひとりを忘れてしまう</div>
+      <h1><a href="https://suno.com/s/OXdBYK9GrP4zsIOY" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.18);">名前なんて、ないの <span style="font-weight:500; opacity:0.72;">No Name</span></a></h1>
+      <p class="subtitle">梶尾真治『おもいでエマノン』に着想を得た歌詞です。生命が誕生して以来の記憶を母から娘へ受け継ぎ続けるエマノンという存在を、原作よりも強く恋愛の側へ引き寄せ、愛した人を記憶している今の「私」と、その記憶をすべて受け継ぎながら彼を愛した主体ではなくなる未来との別れとして描いています。</p>
+      <div class="note">原作のエマノンは、この歌ほど感傷的に自らの宿命を嘆く人物ではありません。この歌では、娘への記憶継承と母の記憶喪失という原作の設定を核にしながら、「娘はあなたを覚えているのに、私はあなたを知らなくなる」という恋愛的な逆説を前面に押し出しています。章見出しや歌唱・演奏指示も日本語で読めるように訳しています。</div>
+      <nav class="toc" aria-label="目次">
+        <a href="#intro">導入</a>
+        <a href="#verse1">第1節</a>
+        <a href="#prechorus1">前サビ</a>
+        <a href="#chorus1">サビ</a>
+        <a href="#verse2">第2節</a>
+        <a href="#prechorus2">前サビ 2</a>
+        <a href="#chorus2">サビ 2</a>
+        <a href="#postchorus">後サビ</a>
+        <a href="#bridge">ブリッジ</a>
+        <a href="#breakdown">ブレイクダウン</a>
+        <a href="#final-chorus">最後のサビ</a>
+        <a href="#outro">終わり</a>
+      </nav>
+      <div class="song-link-wrap">
+        <a class="song-link" href="https://suno.com/s/OXdBYK9GrP4zsIOY" target="_blank" rel="noopener noreferrer">曲を聴く</a>
+        <span class="song-link-note">タイトルからも楽曲ページへ移動できます</span>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="section" id="intro">
+        <div class="section-head">
+          <h2 class="section-title">導入</h2>
+          <div class="section-mood">ほとんど乾いた囁きで、個人としての「私」が生まれる以前へ遡るように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta">原文</span><div class="line">Before the first eye opened,
+before the first mouth learned the sea,
+I was there—
+not as a girl,
+not even as me.
+
+ただ、覚えてる。
+ずっと。
+ずっと。</div></div>
+            <div class="cell translation"><span class="meta">日本語訳</span><div class="line jp">最初の眼がひらくより前、
+最初の口が海を知るより前から、
+私はそこにいた――
+少女としてではなく、
+私としてですらなく。
+
+ただ、覚えてる。
+ずっと。
+ずっと。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="verse1">
+        <div class="section-head">
+          <h2 class="section-title">第1節</h2>
+          <div class="section-mood">生命の原初から現在までを、ひとつの身体の記憶として静かに語るように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">I remember sunlight with no one to see it,
+warm black oceans under a younger moon,
+the first small hunger dividing in silence,
+a billion deaths that ended too soon.</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">見る者などまだ誰もいなかった陽の光を覚えている。
+今より若い月の下にあった、あたたかな黒い海を。
+静寂の中で分裂してゆく、最初の小さな飢えを。
+あまりにも早く終わった、十億もの死を。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">I remember scales, I remember feathers,
+blood learning how to carry fear,
+every mother reaching for another,
+every vanished world is still in here.</div></div>
+            <div class="cell translation"><div class="line jp">鱗を覚えている。羽毛を覚えている。
+血が、恐怖を運ぶことを覚えていった時を。
+誰かへ手を伸ばした、あらゆる母を。
+消えていった世界のすべてが、今もここにある。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">And now you ask me for my name
+like I could ever own just one.
+Call me anything you want tonight—
+名前なんて、ないの。</div></div>
+            <div class="cell translation"><div class="line jp">それなのに今、あなたは私の名前を尋ねる。
+まるで私が、たったひとつの名前を持てるみたいに。
+今夜だけは、好きなように私を呼んで――
+名前なんて、ないの。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="prechorus1">
+        <div class="section-head">
+          <h2 class="section-title">前サビ</h2>
+          <div class="section-mood">永遠と記憶を、救いではなく喪失の重さとして噛みしめるように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">You think forever means I cannot lose.
+You think remembering is being saved.
+But every love becomes another fossil,
+beautifully buried,
+perfectly engraved.</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">あなたは、永遠なら何も失わないと思っている。
+覚えていることは、救われることだと思っている。
+でも、どんな愛もやがてひとつの化石になる。
+美しく埋められ、
+完璧に刻みつけられた化石に。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="chorus1">
+        <div class="section-head">
+          <h2 class="section-title">サビ</h2>
+          <div class="section-mood">記憶し続ける者が、自分だけはいずれその記憶から消える逆説を大きく歌い上げるように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">I remember, I remember—
+おもいでだけが　生きている
+Every hand I held, every mouth I kissed,
+全部、消えない
+but I will.</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">私は覚えている、覚えている――
+おもいでだけが、生きている。
+握ったすべての手も、口づけを交わしたすべての人も、
+全部、消えない。
+でも、私は消える。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">If I give life,
+I give her everything—
+the oceans, the fires,
+your eyes, this night.</div></div>
+            <div class="cell translation"><div class="line jp">もし私が命を産めば、
+私はあの子にすべてを渡す――
+海も、炎も、
+あなたの瞳も、この夜も。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">そして私は
+あなたを忘れる。
+
+So love me now,
+愛して、今だけ
+before tomorrow learns my name.</div></div>
+            <div class="cell translation"><div class="line jp">そして私は
+あなたを忘れる。
+
+だから今、私を愛して。
+愛して、今だけ。
+明日が私の名前を覚えてしまう、その前に。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="verse2">
+        <div class="section-head">
+          <h2 class="section-title">第2節</h2>
+          <div class="section-mood">三十億年という時間と、たった一夜の恐れを並べ、その不釣り合いを愛の重さに変えるように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Thirty hundred million years behind me,
+and still a single night can make me afraid.
+Strange that eternity never taught me
+how to watch one human heartbeat fade.</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">背後には三十億年もの歳月がある。
+それでも、たった一夜が私を怖がらせる。
+おかしなものね。永遠という時間でさえ、
+たったひとりの鼓動が消えてゆくのを見送る方法は、教えてくれなかった。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">I have known the bones beneath the mountains,
+heard forests breathe where cities stand,
+watched your species wake into its sorrow,
+still I tremble when you touch my hand.</div></div>
+            <div class="cell translation"><div class="line jp">山々の下に眠る骨を知っている。
+いま街が立つ場所で、森が呼吸する音を聞いたこともある。
+あなたたちという種が目覚め、悲しみを知ってゆくのも見てきた。
+それなのに、あなたが私の手に触れると、私は今も震える。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">You are so brief.
+That should make you nothing.
+
+なのに、どうして？</div></div>
+            <div class="cell translation"><div class="line jp">あなたは、あまりにも短い。
+そんなもの、本当なら何でもないはずなのに。
+
+なのに、どうして？</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">Why does your voice
+feel heavier than ages?
+Why do I want this moment
+to refuse the dawn?</div></div>
+            <div class="cell translation"><div class="line jp">どうしてあなたの声は、
+幾つもの時代より重く感じるの？
+どうして私は、この瞬間に
+夜明けを拒んでほしいと願ってしまうの？</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="prechorus2">
+        <div class="section-head">
+          <h2 class="section-title">前サビ 2</h2>
+          <div class="section-mood">共に生きることも去ることも、結局は同じひとつの記憶になると知りながら</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">I could stay beside you for a lifetime.
+I could leave before the morning blue.
+Against the weight of all creation,
+either way becomes
+one memory of you.</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">あなたのそばで、一生を過ごすことだってできる。
+朝が青くなる前に、去ることだってできる。
+でも、この創造のすべての重みに比べれば、
+どちらを選んだって結局は
+あなたについての、ひとつのおもいでになる。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="chorus2">
+        <div class="section-head">
+          <h2 class="section-title">サビ 2</h2>
+          <div class="section-mood">娘へすべてを渡す未来を具体的に見つめ、喪失をより近くへ引き寄せるように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">I remember, I remember—
+生命の夢を　抱いている
+Every first goodbye, every last embrace,
+全部、消えない
+but I will.</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">私は覚えている、覚えている――
+生命の夢を、抱いている。
+最初のさよならも、最後の抱擁も、
+全部、消えない。
+でも、私は消える。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">If I bear a daughter,
+she will wake with everything—
+the ancient rain,
+the first heartbeat,
+this room,
+your skin,
+your name.</div></div>
+            <div class="cell translation"><div class="line jp">もし私が娘を産めば、
+あの子はすべてを携えて目を覚ます――
+太古の雨、
+最初の鼓動、
+この部屋、
+あなたの肌、
+あなたの名前。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">でも私は
+あなたを知らない。
+
+So hold me now,
+忘れないで
+when I become the one who can&#x27;t.</div></div>
+            <div class="cell translation"><div class="line jp">でも私は
+あなたを知らない。
+
+だから今、私を抱いて。
+忘れないで。
+私のほうが、忘れずにはいられない者になってしまう時にも。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="postchorus">
+        <div class="section-head">
+          <h2 class="section-title">後サビ</h2>
+          <div class="section-mood">息混じりのファルセットで、未来の自分にはできない記憶を相手へ託すように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Remember me
+when I don&#x27;t remember you.
+
+覚えていて。</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">私を覚えていて。
+私があなたを覚えていられなくなった時も。
+
+覚えていて。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">Remember me
+when these eyes look through you.
+
+ごめんね。
+ごめんね。</div></div>
+            <div class="cell translation"><div class="line jp">私を覚えていて。
+この眼が、あなたを知らない人のように通り過ぎてしまう時も。
+
+ごめんね。
+ごめんね。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="bridge">
+        <div class="section-head">
+          <h2 class="section-title">ブリッジ</h2>
+          <div class="section-mood">ドラムを止め、声とチェロと低い脈だけで、「私」とは誰なのかを問い直すように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Maybe I am not the woman.
+Maybe I am only what survives her.</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">もしかすると私は、この女そのものではないのかもしれない。
+彼女が消えたあとにも残り続ける何かなのかもしれない。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">A vessel passing fire
+from mother into daughter,
+hand to hand,
+body to body,
+夜から夜へ。</div></div>
+            <div class="cell translation"><div class="line jp">火を受け渡してゆく器。
+母から娘へ、
+手から手へ、
+身体から身体へ、
+夜から夜へ。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">I have carried the memory
+of creatures with no names.
+I have carried extinction
+like a lullaby.</div></div>
+            <div class="cell translation"><div class="line jp">私は運んできた。
+名前さえ持たなかった生きものたちの記憶を。
+絶滅さえも、
+子守歌のように抱えてきた。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">But this—
+
+this is the cruelest thing
+life ever asked of me:
+
+to know exactly
+how much I love you,
+
+and know that someday
+その「私」だけが
+いなくなる。</div></div>
+            <div class="cell translation"><div class="line jp">でも、これは――
+
+生命が私に求めたことの中で、
+いちばん残酷なこと。
+
+自分がどれほどあなたを愛しているのかを
+こんなにはっきり知りながら、
+
+いつか
+その「私」だけが
+いなくなると知っていること。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="breakdown">
+        <div class="section-head">
+          <h2 class="section-title">ブレイクダウン</h2>
+          <div class="section-mood">ほとんど語るように、娘に残る記憶と自分から失われる経験をひとつずつ確認するように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">She will remember you.</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">あの子は、あなたを覚えている。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">She will know
+how your voice changed
+when you tried not to be lonely.</div></div>
+            <div class="cell translation"><div class="line jp">あなたが寂しくないふりをした時、
+その声がどんなふうに変わったのかも、
+あの子は知っている。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">She will remember
+the warmth of your shoulder,
+the dark water outside,
+the engine beneath us,
+the little silence
+before we touched.</div></div>
+            <div class="cell translation"><div class="line jp">あの子は覚えている。
+あなたの肩のぬくもりを。
+外に広がる暗い水を。
+私たちの下で響いていたエンジンを。
+そして、触れあう直前の
+あの小さな沈黙を。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">She will remember
+that I loved you.
+
+And I—
+
+私は、何も知らない。</div></div>
+            <div class="cell translation"><div class="line jp">あの子は覚えている。
+私があなたを愛していたことを。
+
+そして私は――
+
+私は、何も知らない。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="final-chorus">
+        <div class="section-head">
+          <h2 class="section-title">最後のサビ</h2>
+          <div class="section-mood">弦を大きく広げ、三十億年の記憶とたったひとつの恋を同じ重さで抱えながら</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">I remember, I remember—
+三十億年の　おもいでを
+Every birth, every grave,
+every beautiful mistake,
+全部、私の中にある。</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">私は覚えている、覚えている――
+三十億年のおもいでを。
+あらゆる誕生も、あらゆる墓も、
+美しかったすべての過ちも、
+全部、私の中にある。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">But when my daughter opens her eyes,
+the universe moves on without me.</div></div>
+            <div class="cell translation"><div class="line jp">でも、私の娘が眼をひらく時、
+宇宙は私を置き去りにして、その先へ進んでゆく。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">She&#x27;ll carry the stars.
+She&#x27;ll carry the sea.
+She&#x27;ll carry this night.
+She&#x27;ll carry you.</div></div>
+            <div class="cell translation"><div class="line jp">あの子は星々を受け継ぐ。
+海を受け継ぐ。
+この夜を受け継ぐ。
+あなたを受け継ぐ。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">あなたを愛したことも
+全部、全部——
+
+and I will be free
+in the most terrible way.</div></div>
+            <div class="cell translation"><div class="line jp">あなたを愛したことも、
+全部、全部――
+
+そして私は、
+いちばん残酷なかたちで自由になる。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">So kiss me now,
+愛して、今だけ
+as if a moment could be enough.</div></div>
+            <div class="cell translation"><div class="line jp">だから今、私にくちづけて。
+愛して、今だけ。
+まるで、たった一瞬だけで十分だというように。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">Say my name—
+名前のない私を
+呼んで。
+
+One last time
+while it still belongs to me.</div></div>
+            <div class="cell translation"><div class="line jp">私の名前を呼んで――
+名前のない私を
+呼んで。
+
+あと一度だけ。
+その名前が、まだ私のものであるうちに。</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="outro">
+        <div class="section-head">
+          <h2 class="section-title">終わり</h2>
+          <div class="section-mood">弦が遠ざかる中、冒頭の時間へ戻りながら、未来の再会を他人同士の別れへ反転させるように</div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="cell original"><span class="meta mobile-hide">原文</span><div class="line">Before the first eye opened,
+I remembered.
+
+After my last memory leaves,
+she will remember.</div></div>
+            <div class="cell translation"><span class="meta mobile-hide">日本語訳</span><div class="line jp">最初の眼がひらくより前から、
+私は覚えていた。
+
+私の最後の記憶が去ったあとも、
+あの子は覚えている。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">あなたのことも。
+
+あなたを愛したことも。</div></div>
+            <div class="cell translation"><div class="line jp">あなたのことも。
+
+あなたを愛したことも。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">But somewhere in tomorrow,
+you may meet my face again—
+
+and I will look at you
+like we have never met.</div></div>
+            <div class="cell translation"><div class="line jp">でも、いつか未来のどこかで、
+あなたはもう一度、私と同じ顔に出会うかもしれない――
+
+そして私はあなたを見る。
+まるで、私たちが一度も出会ったことなどないように。</div></div>
+          </div>
+          <div class="row">
+            <div class="cell original"><div class="line">知らない人。
+…さよなら。</div></div>
+            <div class="cell translation"><div class="line jp">知らない人。
+……さよなら。</div></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="back-link-wrap">
+      <a class="back-link" href="../index.html">← 一覧ページへ戻る</a>
+    </div>
+
+    <footer>
+      単一HTMLファイル・レスポンシブ対訳レイアウト・CSS内蔵<br>
+      GitHub Pages などの静的ホスティングで、そのまま公開できます
+    </footer>
+  </main>
+</body>
+</html>
