@@ -3,18 +3,25 @@ BUILD_SCRIPT := scripts/build.py
 
 DATA_FILES := $(filter-out data/songs.json,$(wildcard data/*.json))
 SLUGS := $(patsubst data/%.json,%,$(DATA_FILES))
-SONG_PAGES := $(patsubst %, %/index.html, $(SLUGS))
+SONG_PAGES := $(patsubst %,%/index.html,$(SLUGS))
 
 .PHONY: all build check clean one force
 
 all: build
 
-build: index.html
+# Both generated entry points must exist after a successful build.
+build: index.html data/songs.json
 
-index.html: $(SONG_PAGES) templates/index.html scripts/build.py
+# A changed song JSON rebuilds its page; then rebuilds index and manifest.
+index.html: $(SONG_PAGES) templates/index.html $(BUILD_SCRIPT)
 	$(PYTHON) $(BUILD_SCRIPT)
 
-%/index.html: data/%.json templates/song.html scripts/build.py
+# build.py writes data/songs.json together with index.html.
+# Re-run the full generator if the manifest is absent or outdated.
+data/songs.json: index.html
+	$(PYTHON) $(BUILD_SCRIPT)
+
+%/index.html: data/%.json templates/song.html $(BUILD_SCRIPT)
 	$(PYTHON) $(BUILD_SCRIPT) $*
 
 check:
